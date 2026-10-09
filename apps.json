@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_version": 2,
+  "data_version": 3,
   "generated_on": "2026-10-09",
   "apps": [
     {
@@ -40,7 +40,7 @@
       "recCpuCores": 8,
       "heavyCpuCores": 12,
       "minRamGb": 8,
-      "recRamGb": 32,
+      "recRamGb": 16,
       "heavyRamGb": 32,
       "minGpuVramGb": null,
       "recGpuVramGb": 0,
