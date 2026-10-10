@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "data_version": 3,
-  "published_on": "2026-10-09",
+  "data_version": 4,
+  "published_on": "2026-10-10",
   "apps_file": "apps.json",
-  "apps_sha256": "662ef358924b2cf6b55d002729de47da5ca42ac2281ba32d61d81c0217048efa",
+  "apps_sha256": "dd0402f9dc3bdd97ace32eab7883684ef10c17a46e9d2a7af12f69c8f1931bb9",
   "apps_count": 99,
   "min_app_version_code": 3
 }
