@@ -1,0 +1,769 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-17",
+  "currency": "USD",
+  "fx": {
+    "base": "USD",
+    "as_of": "2026-10-16",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "https://www.bkam.ma/Marches/Principaux-indicateurs/Marche-des-changes/Cours-de-change/Cours-de-reference",
+      "Fixed USD pegs: SAR 3.75, AED 3.6725"
+    ],
+    "rates": {
+      "MAD": 9.7153,
+      "USD": 1.0,
+      "EUR": 0.888652,
+      "GBP": 0.749889,
+      "JPY": 158.020084,
+      "CNY": 6.686217,
+      "CHF": 0.823958,
+      "CAD": 1.416067,
+      "AUD": 1.437039,
+      "INR": 94.964898,
+      "KRW": 1332.098107,
+      "BRL": 5.082822,
+      "MXN": 18.383631,
+      "ZAR": 16.43384,
+      "TRY": 49.527059,
+      "SEK": 9.904026,
+      "SAR": 3.75,
+      "AED": 3.6725
+    }
+  },
+  "comparators": [
+    {
+      "id": "gamingparts",
+      "name": "GamingParts.ma",
+      "regions": [
+        "MA"
+      ],
+      "search_url": "https://gamingparts.ma/en/parts?search={query}"
+    },
+    {
+      "id": "pcpp_us",
+      "name": "PCPartPicker",
+      "regions": [
+        "US"
+      ],
+      "search_url": "https://pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_uk",
+      "name": "PCPartPicker UK",
+      "regions": [
+        "GB"
+      ],
+      "search_url": "https://uk.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_ca",
+      "name": "PCPartPicker CA",
+      "regions": [
+        "CA"
+      ],
+      "search_url": "https://ca.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_au",
+      "name": "PCPartPicker AU",
+      "regions": [
+        "AU"
+      ],
+      "search_url": "https://au.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_nz",
+      "name": "PCPartPicker NZ",
+      "regions": [
+        "NZ"
+      ],
+      "search_url": "https://nz.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_in",
+      "name": "PCPartPicker IN",
+      "regions": [
+        "IN"
+      ],
+      "search_url": "https://in.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_ie",
+      "name": "PCPartPicker IE",
+      "regions": [
+        "IE"
+      ],
+      "search_url": "https://ie.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_fr",
+      "name": "PCPartPicker FR",
+      "regions": [
+        "FR"
+      ],
+      "search_url": "https://fr.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_de",
+      "name": "PCPartPicker DE",
+      "regions": [
+        "DE",
+        "AT"
+      ],
+      "search_url": "https://de.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_it",
+      "name": "PCPartPicker IT",
+      "regions": [
+        "IT"
+      ],
+      "search_url": "https://it.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_es",
+      "name": "PCPartPicker ES",
+      "regions": [
+        "ES"
+      ],
+      "search_url": "https://es.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_se",
+      "name": "PCPartPicker SE",
+      "regions": [
+        "SE"
+      ],
+      "search_url": "https://se.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "pcpp_be",
+      "name": "PCPartPicker BE",
+      "regions": [
+        "BE",
+        "NL",
+        "LU"
+      ],
+      "search_url": "https://be.pcpartpicker.com/search/?q={query}"
+    },
+    {
+      "id": "google_shopping",
+      "name": "Google Shopping",
+      "regions": [
+        "global"
+      ],
+      "search_url": "https://www.google.com/search?tbm=shop&q={query}"
+    }
+  ],
+  "parts": [
+    {
+      "id": "cpu_ryzen5_7600",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 7600",
+      "released": "2023-01",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 229,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-01-04",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-1-4-amd-extends-its-leadership-with-the-introduction-o.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html"
+    },
+    {
+      "id": "cpu_ryzen5_9600x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 9600X",
+      "released": "2024-08",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 279,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-08-07",
+        "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html"
+    },
+    {
+      "id": "cpu_ryzen7_9700x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 9700X",
+      "released": "2024-08",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 359,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-08-07",
+        "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html"
+    },
+    {
+      "id": "cpu_ryzen7_9800x3d",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 9800X3D",
+      "released": "2024-11",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 120,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 479,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-10-31",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-10-31-the-gaming-legend-continues--amd-introduces-next-.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html"
+    },
+    {
+      "id": "cpu_ryzen9_9900x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 9 9900X",
+      "released": "2024-08",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 12,
+        "threads": 24,
+        "tdp_w": 120,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 499,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-08-07",
+        "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html"
+    },
+    {
+      "id": "cpu_core_i5_14400f",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i5-14400F",
+      "released": "2024-01",
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 10,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR4/DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 196,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html"
+    },
+    {
+      "id": "cpu_core_ultra5_245k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core Ultra 5 245K",
+      "released": "2024-10",
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "cores": 14,
+        "threads": 14,
+        "tdp_w": 125,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 309,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-10-24",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
+    },
+    {
+      "id": "cpu_core_ultra7_265k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core Ultra 7 265K",
+      "released": "2024-10",
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "cores": 20,
+        "threads": 20,
+        "tdp_w": 125,
+        "memory_type": "DDR5"
+      },
+      "bench": null,
+      "price": {
+        "reference": 394,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-10-24",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
+    },
+    {
+      "id": "gpu_rtx_5060",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5060",
+      "released": "2025-05",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR7",
+        "bus_bits": 128,
+        "board_power_w": 145,
+        "recommended_psu_w": 550
+      },
+      "bench": null,
+      "price": {
+        "reference": 299,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-04-15",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+    },
+    {
+      "id": "gpu_rtx_5060ti_16",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5060 Ti 16 GB",
+      "released": "2025-04",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 128,
+        "board_power_w": 180,
+        "recommended_psu_w": 600
+      },
+      "bench": null,
+      "price": {
+        "reference": 429,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-04-15",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+    },
+    {
+      "id": "gpu_rtx_5070",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5070",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR7",
+        "bus_bits": 192,
+        "board_power_w": 250,
+        "recommended_psu_w": 650
+      },
+      "bench": null,
+      "price": {
+        "reference": 549,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+    },
+    {
+      "id": "gpu_rtx_5070ti",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5070 Ti",
+      "released": "2025-02",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 256,
+        "board_power_w": 300,
+        "recommended_psu_w": 750
+      },
+      "bench": null,
+      "price": {
+        "reference": 749,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+    },
+    {
+      "id": "gpu_rtx_5080",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5080",
+      "released": "2025-01",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 256,
+        "board_power_w": 360,
+        "recommended_psu_w": 850
+      },
+      "bench": null,
+      "price": {
+        "reference": 999,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+    },
+    {
+      "id": "gpu_rx_9060xt_16",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9060 XT 16 GB",
+      "released": "2025-06",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 160,
+        "recommended_psu_w": 450
+      },
+      "bench": null,
+      "price": {
+        "reference": 349,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-05-20",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2025-5-20-amd-introduces-new-radeon-graphics-cards-and-ryzen.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html"
+    },
+    {
+      "id": "gpu_rx_9070",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9070",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 220,
+        "recommended_psu_w": 650
+      },
+      "bench": null,
+      "price": {
+        "reference": 549,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-02-28",
+        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html"
+    },
+    {
+      "id": "gpu_rx_9070xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9070 XT",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 304,
+        "recommended_psu_w": 750
+      },
+      "bench": null,
+      "price": {
+        "reference": 599,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-02-28",
+        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html"
+    },
+    {
+      "id": "ram_16_ddr4_3200",
+      "type": "ram",
+      "brand": null,
+      "name": "16 GB DDR4-3200 (2 × 8 GB)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 16,
+        "type": "DDR4",
+        "speed_mts": 3200,
+        "modules": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ram_32_ddr4_3600",
+      "type": "ram",
+      "brand": null,
+      "name": "32 GB DDR4-3600 (2 × 16 GB)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR4",
+        "speed_mts": 3600,
+        "modules": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ram_32_ddr5_6000",
+      "type": "ram",
+      "brand": null,
+      "name": "32 GB DDR5-6000 (2 × 16 GB)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ram_64_ddr5_6000",
+      "type": "ram",
+      "brand": null,
+      "name": "64 GB DDR5-6000 (2 × 32 GB)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 64,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ssd_500_pcie4",
+      "type": "storage",
+      "brand": null,
+      "name": "500 GB NVMe SSD (PCIe 4.0)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 500,
+        "interface": "NVMe PCIe 4.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ssd_1tb_pcie4",
+      "type": "storage",
+      "brand": null,
+      "name": "1 TB NVMe SSD (PCIe 4.0)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "NVMe PCIe 4.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ssd_2tb_pcie4",
+      "type": "storage",
+      "brand": null,
+      "name": "2 TB NVMe SSD (PCIe 4.0)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 2000,
+        "interface": "NVMe PCIe 4.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ssd_4tb_pcie4",
+      "type": "storage",
+      "brand": null,
+      "name": "4 TB NVMe SSD (PCIe 4.0)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "capacity_gb": 4000,
+        "interface": "NVMe PCIe 4.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b650_am5",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B650 chipset board (AM5)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "memory_type": "DDR5",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b760_ddr4",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B760 chipset board, DDR4 version (LGA1700)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memory_type": "DDR4",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b860_lga1851",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B860 chipset board (LGA1851)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "LGA1851",
+        "chipset": "B860",
+        "memory_type": "DDR5",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "psu_550_gold",
+      "type": "psu",
+      "brand": null,
+      "name": "550 W 80 PLUS Gold",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "watts": 550,
+        "efficiency": "80 PLUS Gold"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "psu_750_gold",
+      "type": "psu",
+      "brand": null,
+      "name": "750 W 80 PLUS Gold",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "watts": 750,
+        "efficiency": "80 PLUS Gold"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "psu_1000_gold",
+      "type": "psu",
+      "brand": null,
+      "name": "1000 W 80 PLUS Gold",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "watts": 1000,
+        "efficiency": "80 PLUS Gold"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    }
+  ]
+}

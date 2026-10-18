@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "data_version": 2,
+  "published_on": "2026-10-18",
+  "parts_file": "parts.json",
+  "parts_sha256": "3431f44d0cb18f71b9fd1a7c60ca3f6a18390d5392cfb2e004c05a4984d2b73c",
+  "parts_count": 30,
+  "min_app_version_code": 4
+}

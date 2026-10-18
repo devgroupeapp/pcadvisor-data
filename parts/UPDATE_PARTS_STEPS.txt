@@ -1,0 +1,64 @@
+PC ADVISOR - HOW TO UPDATE PARTS, PRICES, CURRENCIES AND PRICE SITES (parts.json)
+====================================================================================
+
+FOLDER
+  Everything for parts lives in pcadvisor-data/parts/ (data + its own tools).
+  It shares only the signing helper tools/signing.py and the public key with apps.json.
+
+WHAT parts.json HOLDS
+  - parts (CPU, GPU, RAM, SSD, motherboards, PSU) with specs and reference prices
+  - fx: exchange rates for the 18 currencies (base USD)
+  - comparators: price-comparison sites per country (GamingParts.ma, PCPartPicker, Google Shopping)
+  All of it updates through GitHub. No new app version is needed.
+
+WHEN
+  - Exchange rates: once a month (or after a big move in MAD/EUR).
+  - Prices: when a part's price changes a lot, or a new part launches.
+  - Comparators: when you add / change a price site.
+
+SIGNING
+  Same key and passphrase as apps.json (C:\Users\DA\.pcadvisor\data_signing_key.pem).
+  Nothing new to set up.
+
+
+STEP 1 - Edit parts.json
+  Open Claude, attach parts.json and say what to change, for example:
+    "Update the exchange rates to today's ECB and Bank Al-Maghrib rates."
+    "Add the RTX 5050 from NVIDIA's official page."
+    "Add a price site for Japan: <url>"
+  Rules:
+  - Specs only from the maker's official page (amd.com, intel.com, nvidia.com ...).
+  - Every price and every rate keeps its source and date (as_of).
+  - fx as_of must not be later than the catalog as_of: update both dates together.
+  - Price sites: https, contain {query}, NO affiliate or tracking links (utm_, aff, ref=, tag=).
+
+STEP 2 - Limits the app enforces (one bad value = whole file rejected, app keeps the old one)
+  id: a-z 0-9 _ (max 40) | name 1..80 chars | 1..2000 parts
+  prices: whole numbers in USD, 1..20000 | benchmark scores: whole numbers 1..1000
+  exactly these 18 currencies, USD = 1:
+    MAD USD EUR GBP JPY CNY CHF CAD AUD INR KRW BRL MXN ZAR TRY SEK SAR AED
+  each country appears in only one price site, and one site must cover "global"
+  every CPU must have a matching motherboard, every motherboard matching RAM.
+
+STEP 3 - Publish
+  In the pcadvisor-data folder (the main one, not inside parts):
+  1. python parts/tools/publish_parts.py      (checks everything, raises data_version, signs;
+                                          asks for your signing passphrase)
+  2. python parts/tools/validate_parts.py     -> must show 0 errors
+  3. Upload these 3 files to the parts folder on GitHub (github.com/devgroupeapp/pcadvisor-data/parts):
+       parts/parts.json
+       parts/parts_manifest.json
+       parts/parts_manifest.json.sig
+     (also parts/tools/ and parts/.gitattributes the first time, or when they change)
+  4. Wait ~2 minutes, open
+       https://devgroupeapp.github.io/pcadvisor-data/parts/parts_manifest.json
+     and check data_version went up by 1.
+  Re-sign without changing data:   python parts/tools/publish_parts.py --sign-only
+  Require a newer app:             python parts/tools/publish_parts.py --min-app 6
+     (only when parts.json uses something older app versions do not understand)
+
+  publish_parts.py never touches apps.json / manifest.json, and publish.py never
+  touches the parts files. Each has its own version number.
+
+STEP 4 - Record it
+  date | what changed (e.g. "fx refresh 2026-11-15", "added RTX 5050")
