@@ -1,0 +1,3990 @@
+{
+  "format": "pcadvisor-requirements",
+  "schema_version": 1,
+  "generated_on": "2026-10-23",
+  "records": [
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": "Microsoft 365 for home use"
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/system-requirements/system-requirements-for-microsoft-365-for-home-use",
+          "title": "System requirements for Microsoft 365 for home use",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster, 2-core"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "2-core"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM; 2 GB RAM (32-bit)"
+            },
+            "gpu": {
+              "value": "Graphics hardware acceleration requires DirectX 9 or later"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 4,
+              "quote": "4 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "One of the three most recent versions of macOS"
+            },
+            "cpu": {
+              "value": "Intel processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM"
+            },
+            "gpu": {
+              "missing": "not_applicable"
+            },
+            "vram_gb": {
+              "missing": "not_applicable"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One Microsoft 365 table covers Word, Excel, PowerPoint and Outlook. The page gives one column (treated as minimum); no recommended column."
+        },
+        {
+          "kind": "quote",
+          "text": "Mac graphics: 'No graphics requirements.' Mac processor cell reads 'Intel processor'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Android and iOS columns on the same page are not recorded (PC app)."
+        }
+      ]
+    },
+    {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": "Microsoft 365 for home use"
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/system-requirements/system-requirements-for-microsoft-365-for-home-use",
+          "title": "System requirements for Microsoft 365 for home use",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster, 2-core"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "2-core"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM; 2 GB RAM (32-bit)"
+            },
+            "gpu": {
+              "value": "Graphics hardware acceleration requires DirectX 9 or later"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 4,
+              "quote": "4 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "One of the three most recent versions of macOS"
+            },
+            "cpu": {
+              "value": "Intel processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM"
+            },
+            "gpu": {
+              "missing": "not_applicable"
+            },
+            "vram_gb": {
+              "missing": "not_applicable"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One Microsoft 365 table covers Word, Excel, PowerPoint and Outlook. The page gives one column (treated as minimum); no recommended column."
+        },
+        {
+          "kind": "quote",
+          "text": "Mac graphics: 'No graphics requirements.' Mac processor cell reads 'Intel processor'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Android and iOS columns on the same page are not recorded (PC app)."
+        }
+      ]
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": "Microsoft 365 for home use"
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/system-requirements/system-requirements-for-microsoft-365-for-home-use",
+          "title": "System requirements for Microsoft 365 for home use",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster, 2-core"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "2-core"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM; 2 GB RAM (32-bit)"
+            },
+            "gpu": {
+              "value": "Graphics hardware acceleration requires DirectX 9 or later"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 4,
+              "quote": "4 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "One of the three most recent versions of macOS"
+            },
+            "cpu": {
+              "value": "Intel processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM"
+            },
+            "gpu": {
+              "missing": "not_applicable"
+            },
+            "vram_gb": {
+              "missing": "not_applicable"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One Microsoft 365 table covers Word, Excel, PowerPoint and Outlook. The page gives one column (treated as minimum); no recommended column."
+        },
+        {
+          "kind": "quote",
+          "text": "Mac graphics: 'No graphics requirements.' Mac processor cell reads 'Intel processor'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Android and iOS columns on the same page are not recorded (PC app)."
+        }
+      ]
+    },
+    {
+      "id": "outlook",
+      "name": "Microsoft Outlook",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": "Microsoft 365 for home use"
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/system-requirements/system-requirements-for-microsoft-365-for-home-use",
+          "title": "System requirements for Microsoft 365 for home use",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster, 2-core"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "2-core"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM; 2 GB RAM (32-bit)"
+            },
+            "gpu": {
+              "value": "Graphics hardware acceleration requires DirectX 9 or later"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 4,
+              "quote": "4 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "One of the three most recent versions of macOS"
+            },
+            "cpu": {
+              "value": "Intel processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB RAM"
+            },
+            "gpu": {
+              "missing": "not_applicable"
+            },
+            "vram_gb": {
+              "missing": "not_applicable"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB of available disk space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One Microsoft 365 table covers Word, Excel, PowerPoint and Outlook. The page gives one column (treated as minimum); no recommended column."
+        },
+        {
+          "kind": "quote",
+          "text": "Mac graphics: 'No graphics requirements.' Mac processor cell reads 'Intel processor'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Android and iOS columns on the same page are not recorded (PC app)."
+        }
+      ]
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-client-system-requirements",
+          "title": "System requirements for the Teams client",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10 version 10.0.19041 or higher (not LTSC)"
+            },
+            "cpu": {
+              "value": "Minimum 1.1 GHz or faster, two cores"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "two cores"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4.0 GB RAM"
+            },
+            "gpu": {
+              "value": "Graphics hardware acceleration requires DirectX 9 or later, WDDM 2.0 or higher"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 3,
+              "quote": "3.0 GB of available disk space"
+            },
+            "display": {
+              "value": "1024 x 768 or higher"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "One of the three most recent versions of macOS"
+            },
+            "cpu": {
+              "value": "Dual core processor"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "Dual core processor"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4.0 GB RAM"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 1.5,
+              "quote": "1.5 GB of available disk space"
+            },
+            "display": {
+              "value": "1200 x 800 or higher"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "The page gives one 'Requirement' column (treated as minimum)."
+        }
+      ]
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "visualstudio.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://code.visualstudio.com/docs/supporting/requirements",
+          "title": "Requirements for Visual Studio Code",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Supported versions of Windows client (64-bit)"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 1,
+              "quote": "1 GB of RAM"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS versions with Apple security update support"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 1,
+              "quote": "1 GB of RAM"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu Desktop 20.04, Debian 10, RHEL 8, Fedora 36"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "1.6 GHz or faster processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 1,
+              "quote": "1 GB of RAM"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "'We recommend: 1.6 GHz or faster processor, 1 GB of RAM'. Download < 200 MB, disk footprint < 500 MB."
+        },
+        {
+          "kind": "normalized",
+          "text": "Disk is given as an upper bound ('< 500 MB'), not a requirement, so storage_gb is left not_specified."
+        }
+      ]
+    },
+    {
+      "id": "intellij",
+      "name": "IntelliJ IDEA",
+      "publisher": {
+        "name": "JetBrains",
+        "domains": [
+          "jetbrains.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/help/idea/installation-guide.html",
+          "title": "Install IntelliJ IDEA - System requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10, 11"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 15, 26"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu 24.04/26.04 LTS, Fedora 43/44, Debian 13; glibc 2.28+"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "The page has one requirements table without minimum/recommended columns (treated as minimum). GPU not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "androidstudio",
+      "name": "Android Studio",
+      "publisher": {
+        "name": "Google",
+        "domains": [
+          "android.com"
+        ]
+      },
+      "applies_to": {
+        "version": "Rabbit 1 (2026.2.1)",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://developer.android.com/studio/install",
+          "title": "Install Android Studio - system requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "64-bit Microsoft Windows 10"
+            },
+            "cpu": {
+              "value": "CPU microarchitecture after 2017 (Intel 8th Gen Core i5 / AMD Zen Ryzen); virtualization (VT-x/AMD-V) required"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "Studio: 8 GB"
+            },
+            "gpu": {
+              "value": "None required (Android Studio alone)"
+            },
+            "vram_gb": {
+              "missing": "not_applicable"
+            },
+            "storage_gb": {
+              "value": 8,
+              "quote": "Studio: 8 GB of free space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Latest 64-bit version of Windows"
+            },
+            "cpu": {
+              "value": "Latest CPU microarchitecture (Intel Core i5/i7/i9 H/HK/HX or S/F/K; AMD Ryzen 5/6/7/9); virtualization required"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 32,
+              "quote": "32GB"
+            },
+            "gpu": {
+              "value": "GPU with 8GB VRAM such as Nvidia GeForce 20 series or newer, or AMD Radeon RX6600 or newer"
+            },
+            "vram_gb": {
+              "value": 8
+            },
+            "storage_gb": {
+              "value": 32,
+              "quote": "Solid state drive with 32 GB or more"
+            },
+            "display": {
+              "value": "1920 x 1080"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Minimum uses the 'Studio' values (IDE without the emulator). Recommended covers Studio and the Emulator."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows table was recorded; the page also has macOS and Linux tables (not yet checked)."
+        },
+        {
+          "kind": "quote",
+          "text": "'Intel Core N-Series and U-Series processors are not recommended due to insufficient performance.'"
+        }
+      ]
+    },
+    {
+      "id": "androidemulator",
+      "name": "Android Virtual Device Emulator",
+      "publisher": {
+        "name": "Google",
+        "domains": [
+          "android.com"
+        ]
+      },
+      "applies_to": {
+        "version": "Rabbit 1 (2026.2.1)",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://developer.android.com/studio/install",
+          "title": "Install Android Studio - system requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "64-bit Microsoft Windows 10"
+            },
+            "cpu": {
+              "value": "CPU microarchitecture after 2017 (Intel 8th Gen Core i5 / AMD Zen Ryzen); virtualization (VT-x/AMD-V) required"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "Studio & Emulator: 16GB"
+            },
+            "gpu": {
+              "value": "GPU with 4GB VRAM such as Nvidia GeForce 10 series or newer, or AMD Radeon RX 5000 or newer"
+            },
+            "vram_gb": {
+              "value": 4
+            },
+            "storage_gb": {
+              "value": 16,
+              "quote": "Studio & Emulator: 16GB of free space"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Latest 64-bit version of Windows"
+            },
+            "cpu": {
+              "value": "Latest CPU microarchitecture (Intel Core i5/i7/i9 H/HK/HX or S/F/K; AMD Ryzen 5/6/7/9); virtualization required"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 32,
+              "quote": "32GB"
+            },
+            "gpu": {
+              "value": "GPU with 8GB VRAM such as Nvidia GeForce 20 series or newer, or AMD Radeon RX6600 or newer"
+            },
+            "vram_gb": {
+              "value": 8
+            },
+            "storage_gb": {
+              "value": 32,
+              "quote": "Solid state drive with 32 GB or more"
+            },
+            "display": {
+              "value": "1920 x 1080"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Uses the 'Studio & Emulator' values of the Android Studio table."
+        },
+        {
+          "kind": "quote",
+          "text": "'Running multiple AVDs simultaneously requires approximately 4GB of memory per AVD.'"
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows table was recorded; the page also has macOS and Linux tables (not yet checked)."
+        },
+        {
+          "kind": "quote",
+          "text": "'Intel Core N-Series and U-Series processors are not recommended due to insufficient performance.'"
+        }
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "publisher": {
+        "name": "Blender Foundation",
+        "domains": [
+          "blender.org"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.blender.org/download/requirements/",
+          "title": "System Requirements for Blender",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 8.1 (64-bit)"
+            },
+            "cpu": {
+              "value": "4 cores with SSE4.2 support"
+            },
+            "cpu_cores": {
+              "value": 4
+            },
+            "ram_gb": {
+              "value": 8
+            },
+            "gpu": {
+              "value": "2 GB VRAM with OpenGL 4.3, Vulkan 1.3"
+            },
+            "vram_gb": {
+              "value": 2
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "8 cores"
+            },
+            "cpu_cores": {
+              "value": 8
+            },
+            "ram_gb": {
+              "value": 32
+            },
+            "gpu": {
+              "value": "8 GB VRAM"
+            },
+            "vram_gb": {
+              "value": 8
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "1920x1080"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Displays: 'a minimum resolution of 1920x1080 is recommended for optimal use'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows tab was recorded; macOS and Linux tabs not yet checked. Disk space not given on the page."
+        }
+      ]
+    },
+    {
+      "id": "autocad",
+      "name": "AutoCAD 2027",
+      "publisher": {
+        "name": "Autodesk",
+        "domains": [
+          "autodesk.com"
+        ]
+      },
+      "applies_to": {
+        "version": "2027",
+        "edition": "including Specialized Toolsets"
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-AutoCAD-2027-including-Specialized-Toolsets.html",
+          "title": "System requirements for AutoCAD 2027 including Specialized Toolsets",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "64-bit Microsoft Windows 11"
+            },
+            "cpu": {
+              "value": "2.5-2.9 GHz processor with 8 logical cores (base)"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "Basic: 16 GB"
+            },
+            "gpu": {
+              "value": "2 GB GPU with 29 GB/s Bandwidth and DirectX 11 compliant"
+            },
+            "vram_gb": {
+              "value": 2
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10.0 GB (suggested SSD)"
+            },
+            "display": {
+              "value": "1920 x 1080 with True Color"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "3+ GHz processor (base), 4+ GHz (turbo)"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 32,
+              "quote": "Recommended: 32 GB"
+            },
+            "gpu": {
+              "value": "8 GB GPU with 106 GB/s Bandwidth and DirectX 12 compliant"
+            },
+            "vram_gb": {
+              "value": 8
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "Up to 3840 x 2160 (with Recommended display card)"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS Tahoe v26, Sequoia v15, Sonoma v14"
+            },
+            "cpu": {
+              "value": "64-bit Intel CPU or Apple M series CPU"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "Basic: 8 GB"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 8,
+              "quote": "8 GB free disk space for download and installation"
+            },
+            "display": {
+              "value": "1280 x 800"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "Recommended: 16 GB or higher"
+            },
+            "gpu": {
+              "value": "Mac native installed graphics cards"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "2880 x 1800 with Retina Display"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Windows CPU states '8 logical cores' (threads), not physical cores, so cpu_cores is left empty."
+        },
+        {
+          "kind": "quote",
+          "text": "Large datasets, point clouds and 3D modeling: '32 GB RAM or more'."
+        }
+      ]
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "publisher": {
+        "name": "Adobe",
+        "domains": [
+          "adobe.com"
+        ]
+      },
+      "applies_to": {
+        "version": "27.x and later",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/get-started/technical-requirements-installation/adobe-photoshop-on-desktop-technical-requirements.html",
+          "title": "Adobe Photoshop on desktop technical requirements (last updated Sep 9, 2026)",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Win 11 v24H2, v23H2, Win 10 v22H2, v21H2 LTSC"
+            },
+            "cpu": {
+              "value": "Multicore Intel, AMD, or WinARM processor with AVX2 and SSE 4.2"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8
+            },
+            "gpu": {
+              "value": "GPU with DirectX 12 (feature level 12_0 or later), newer than 7 years"
+            },
+            "vram_gb": {
+              "value": 1.5,
+              "quote": "Video RAM 1.5 GB"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB of available hard disk space"
+            },
+            "display": {
+              "value": "1280 x 800 at 100% scaling, or 1920 x 1080 at 150% scaling"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB or more"
+            },
+            "gpu": {
+              "value": "GPU with DirectX 12 support (feature level 12_0 or later)"
+            },
+            "vram_gb": {
+              "value": 2,
+              "quote": "Video RAM 2 GB"
+            },
+            "storage_gb": {
+              "value": 100,
+              "quote": "100 GB of available hard disk space"
+            },
+            "display": {
+              "value": "1920 x 1080 display or higher"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Recommended graphics: '4 GB of GPU memory for 4k displays and greater'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only 'Windows on Intel / AMD' for version 27.x was recorded; macOS and Windows on ARM not yet checked."
+        }
+      ]
+    },
+    {
+      "id": "premiere",
+      "name": "Adobe Premiere Pro",
+      "publisher": {
+        "name": "Adobe",
+        "domains": [
+          "adobe.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html",
+          "title": "Adobe Premiere system requirements (last updated Oct 7, 2026)",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 v24H2"
+            },
+            "cpu": {
+              "value": "Intel 6th Generation or newer, or AMD Ryzen 1000 Series or newer; AVX2 required"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB RAM"
+            },
+            "gpu": {
+              "value": "NVIDIA Maxwell (2014) or newer, or Intel/AMD GPU, with at least 4GB of GPU memory"
+            },
+            "vram_gb": {
+              "value": 4
+            },
+            "storage_gb": {
+              "value": 8,
+              "quote": "8 GB of available hard disk space"
+            },
+            "display": {
+              "value": "1920x1080"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Windows 11 v24H2"
+            },
+            "cpu": {
+              "value": "Intel 11th Gen or newer with Quick Sync, or AMD Ryzen 3000 / Threadripper 3000 or newer"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB RAM for HD media"
+            },
+            "gpu": {
+              "value": "8 GB GPU memory"
+            },
+            "vram_gb": {
+              "value": 8
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "1920x1080 or more; DisplayHDR 1000 for HDR"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "'The minimum specifications are for editing HD video. The recommended specifications are for editing video in HD, 4K, or higher resolutions.'"
+        },
+        {
+          "kind": "quote",
+          "text": "Recommended memory for 4K and higher: '32 GB or more'. Recommended storage: 'Fast internal SSD for app installation and cache' (no size)."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows (Intel/AMD) column was recorded; macOS and Windows on Arm not yet checked. The page names no version."
+        }
+      ]
+    },
+    {
+      "id": "sketchup",
+      "name": "Trimble SketchUp",
+      "publisher": {
+        "name": "Trimble",
+        "domains": [
+          "sketchup.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://help.sketchup.com/en/sketchup/system-requirements",
+          "title": "SketchUp Hardware and Software Requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11"
+            },
+            "cpu": {
+              "value": "2+ GHz processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "At least 8GB of RAM"
+            },
+            "gpu": {
+              "value": "Discrete graphics card with OpenGL 3.1 support"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 6,
+              "quote": "At least 6GB of available hard disk space"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "The Windows section is titled 'Minimum Recommended Hardware Requirements' (recorded as minimum)."
+        },
+        {
+          "kind": "quote",
+          "text": "'A modern GPU with at least 8GB of VRAM' is required only for PBR materials, Ambient Occlusion and Image Based Lighting."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Supported versions on the page: SketchUp 2025, 2026, 2027. Only Windows recorded; macOS (Apple silicon only from 2027.0) not recorded."
+        }
+      ]
+    },
+    {
+      "id": "lol",
+      "name": "League of Legends",
+      "publisher": {
+        "name": "Riot Games",
+        "domains": [
+          "riotgames.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.riotgames.com/en-us/league-of-legends/performance/minimum-and-recommended-system-requirements-league-of-legends",
+          "title": "Minimum and Recommended System Requirements (League of Legends), Sep 22, 2026",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Win 10 (Build 19041+), Win 11 (TPM 2.0); x64"
+            },
+            "cpu": {
+              "value": "Intel Core i3-530 / AMD FX-4100; SSE 4.2"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 2,
+              "quote": "2GB"
+            },
+            "gpu": {
+              "value": "GeForce 400 Series / AMD HD 6570 / Intel HD 4600; DX11-level hardware"
+            },
+            "vram_gb": {
+              "value": 1,
+              "quote": "1GB"
+            },
+            "storage_gb": {
+              "value": 16,
+              "quote": "16GB HDD"
+            },
+            "display": {
+              "value": "1024x768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Win 11 (TPM 2.0); x64"
+            },
+            "cpu": {
+              "value": "Intel Core i5-8250 / AMD Ryzen 3 1200; SSE 4.2"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4GB"
+            },
+            "gpu": {
+              "value": "NVidia GeForce 560 / AMD Radeon HD 6950 / Intel UHD 630"
+            },
+            "vram_gb": {
+              "value": 2,
+              "quote": "2GB"
+            },
+            "storage_gb": {
+              "value": 16,
+              "quote": "16GB SSD"
+            },
+            "display": {
+              "value": "1920x1080"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 12"
+            },
+            "cpu": {
+              "value": "Apple M1"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "Unified Memory (UMA) 8GB"
+            },
+            "gpu": {
+              "value": "Metal-capable GPU"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 40,
+              "quote": "40GB"
+            },
+            "display": {
+              "value": "1680x1050"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "macOS 12"
+            },
+            "cpu": {
+              "value": "Apple M1"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "Unified Memory (UMA) 8GB"
+            },
+            "gpu": {
+              "value": "Metal-capable GPU"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 40,
+              "quote": "40GB"
+            },
+            "display": {
+              "value": "1680x1050"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Resolutions are the page's 'Recommended Resolution' row. Mac RAM is unified memory."
+        },
+        {
+          "kind": "quote",
+          "text": "ARM CPUs on Windows: 'Not supported'."
+        },
+        {
+          "kind": "maintainer",
+          "text": "The page is inconsistent on Mac: its intro says 'we only natively support Intel macOS', its Mac note says support is 'primarily focused on Apple Silicon' and the table lists Apple M1."
+        }
+      ]
+    },
+    {
+      "id": "valorant",
+      "name": "Valorant",
+      "publisher": {
+        "name": "Riot Games",
+        "domains": [
+          "riotgames.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.riotgames.com/en-us/valorant/support-tools/minimum-recommended-pc-specs",
+          "title": "Minimum & Recommended PC Specs - VALORANT Support, May 21, 2026",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10 (Build 19041+) 64-bit or Windows 11 64-bit"
+            },
+            "cpu": {
+              "value": "Intel i3-540 / AMD Athlon 200GE; SSE 4.2 or AVX"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4GB"
+            },
+            "gpu": {
+              "value": "Intel HD 4000 / AMD Radeon R5 220; DirectX 11"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Windows 10 (Build 19041+) 64-bit or Windows 11 64-bit"
+            },
+            "cpu": {
+              "value": "Intel i3-4150 / AMD Ryzen 3 1200"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_verified"
+            },
+            "gpu": {
+              "value": "NVIDIA GeForce GT 730 / AMD Radeon R7 240"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Columns: Min Specs (30 FPS), Rec Specs (60 FPS), High-end Specs (144 FPS: i5-9400F / Ryzen 5 2600X, GTX 1050 Ti / R7 370 / Arc A310)."
+        },
+        {
+          "kind": "quote",
+          "text": "'If your system uses dedicated/discrete graphics, you will also need at least 1GB VRAM.' Windows 11 needs TPM 2.0 and Secure Boot."
+        },
+        {
+          "kind": "maintainer",
+          "text": "RAM shows a single '4GB' cell; not yet confirmed whether it spans all columns, so recommended RAM is not_verified. No disk space given."
+        }
+      ]
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "publisher": {
+        "name": "Epic Games",
+        "domains": [
+          "epicgames.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.epicgames.com/help/c-34254770/a16548002?lang=en-US",
+          "title": "What are the system requirements for Fortnite on PC?",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10 Version 22H2 (64-bit) or Windows 10 Enterprise 21H2 (64-bit)"
+            },
+            "cpu": {
+              "value": "Core i3-3225 3.3 GHz"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB RAM"
+            },
+            "gpu": {
+              "value": "Intel HD 4000; AMD Radeon Vega 8"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "Windows 10/11 64-bit"
+            },
+            "cpu": {
+              "value": "Core i5-7300U 3.5 GHz, AMD Ryzen 3 3300U, or equivalent"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB RAM or higher"
+            },
+            "gpu": {
+              "value": "Nvidia GTX 960, AMD R9 280, or equivalent DX11 GPU"
+            },
+            "vram_gb": {
+              "value": 2,
+              "quote": "2 GB VRAM"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Recommended hard drive: 'NVMe Solid State Drive' (no size given)."
+        },
+        {
+          "kind": "quote",
+          "text": "Epic quality presets: RTX 3070 / RX 6700 XT, 8 GB VRAM or higher, i7-8700 / Ryzen 7 3700x, 16 GB RAM."
+        }
+      ]
+    },
+    {
+      "id": "twitch_studio",
+      "name": "Twitch Studio",
+      "publisher": {
+        "name": "Twitch",
+        "domains": [
+          "twitch.tv"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "discontinued",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://blog.twitch.tv/en/2020/10/12/twitch-studio-updates-new-tools-to-help-you-stream-like-a-pro/",
+          "title": "Twitch blog post with editor's note on Twitch Studio",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Editor's note: 'We will be discontinuing support of Twitch Studio after May 30, 2024.'"
+        },
+        {
+          "kind": "maintainer",
+          "text": "Product decision needed: keep the app id (users may have it selected) but show it as discontinued, or remove it."
+        }
+      ]
+    },
+    {
+      "id": "catia",
+      "name": "CATIA",
+      "publisher": {
+        "name": "Dassault Systemes",
+        "domains": [
+          "3ds.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verification_blocked",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.3ds.com/support/hardware-and-software",
+          "title": "Hardware & Software support (public overview)",
+          "retrieved_on": "2026-10-23"
+        },
+        {
+          "url": "https://media.3ds.com/support/progdir/all/?pdir=v5",
+          "title": "CATIA V5 Program Directory (redirects to 3DEXPERIENCE ID login)",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "maintainer",
+          "text": "On 2026-10-23 the V5 Program Directory redirected to a 3DEXPERIENCE ID sign-in page. No values recorded; we did not sign in."
+        },
+        {
+          "kind": "quote",
+          "text": "The public overview points to 'Program Directories' for 'all the information about the Strategic Platforms requirements'."
+        }
+      ]
+    },
+    {
+      "id": "siemens_nx",
+      "name": "Siemens NX",
+      "publisher": {
+        "name": "Siemens Digital Industries Software",
+        "domains": [
+          "siemens.com"
+        ]
+      },
+      "applies_to": {
+        "version": "June 2023 release and later",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.sw.siemens.com/en-US/okba/PL8719836/Accelerated-graphics-requirement/index.html",
+          "title": "NX knowledge base: Accelerated graphics requirement (public)",
+          "retrieved_on": "2026-10-23"
+        },
+        {
+          "url": "https://support.sw.siemens.com/en-US/product/209349590/knowledge-base/PL8017193",
+          "title": "NX Hardware and Software Certifications (redirects to Siemens sign-in)",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "missing": "blocked"
+            },
+            "cpu": {
+              "missing": "blocked"
+            },
+            "cpu_cores": {
+              "missing": "blocked"
+            },
+            "ram_gb": {
+              "missing": "blocked"
+            },
+            "gpu": {
+              "value": "GPU with accelerated graphics required"
+            },
+            "vram_gb": {
+              "missing": "blocked"
+            },
+            "storage_gb": {
+              "missing": "blocked"
+            },
+            "display": {
+              "missing": "blocked"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "blocked"
+            },
+            "cpu": {
+              "missing": "blocked"
+            },
+            "cpu_cores": {
+              "missing": "blocked"
+            },
+            "ram_gb": {
+              "missing": "blocked"
+            },
+            "gpu": {
+              "missing": "blocked"
+            },
+            "vram_gb": {
+              "missing": "blocked"
+            },
+            "storage_gb": {
+              "missing": "blocked"
+            },
+            "display": {
+              "missing": "blocked"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "'NX has always required accelerated graphics, which makes a graphical processing unit (GPU) essential when running NX.'"
+        },
+        {
+          "kind": "maintainer",
+          "text": "The certification table (supported OS, systems and graphics) redirected to a Siemens sign-in page on 2026-10-23; those fields are blocked."
+        }
+      ]
+    },
+    {
+      "id": "jupyterlab",
+      "name": "JupyterLab",
+      "publisher": {
+        "name": "Project Jupyter",
+        "domains": [
+          "jupyterlab.readthedocs.io",
+          "jupyter.org"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "no_official_spec",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html",
+          "title": "JupyterLab installation",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "maintainer",
+          "text": "The official installation page gives no hardware requirements (RAM, CPU, disk, GPU)."
+        },
+        {
+          "kind": "quote",
+          "text": "Browsers 'currently known to work': latest Firefox, Chrome, Safari and Edge."
+        }
+      ]
+    },
+    {
+      "id": "jupyter_notebook",
+      "name": "Jupyter Notebook",
+      "publisher": {
+        "name": "Project Jupyter",
+        "domains": [
+          "jupyter.org"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "no_official_spec",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://docs.jupyter.org/en/latest/install/notebook-classic.html",
+          "title": "Installing the classic Jupyter Notebook interface",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "maintainer",
+          "text": "The official install page gives no hardware requirements."
+        },
+        {
+          "kind": "quote",
+          "text": "'Python is a requirement for installing the Jupyter Notebook' (Python 3.7+ for Notebook v7)."
+        }
+      ]
+    },
+    {
+      "id": "google_colab",
+      "name": "Google Colab",
+      "publisher": {
+        "name": "Google",
+        "domains": [
+          "google.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "no_official_spec",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://research.google.com/colaboratory/faq.html",
+          "title": "Colaboratory FAQ",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "'Code is executed in a virtual machine private to your account.' Tested most with the latest Chrome, Firefox and Safari."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Hosted service: the FAQ states no hardware requirements for the user's own computer."
+        }
+      ]
+    },
+    {
+      "id": "qemu",
+      "name": "QEMU / KVM",
+      "publisher": {
+        "name": "QEMU project",
+        "domains": [
+          "qemu.org"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "no_official_spec",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.qemu.org/docs/master/about/build-platforms.html",
+          "title": "QEMU supported build platforms",
+          "retrieved_on": "2026-10-23"
+        },
+        {
+          "url": "https://www.qemu.org/download/",
+          "title": "Download QEMU",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {},
+      "notes": [
+        {
+          "kind": "maintainer",
+          "text": "Official pages list supported host OS and architectures but no RAM, CPU or disk requirements."
+        },
+        {
+          "kind": "quote",
+          "text": "Windows: 'Only 64-bit Windows is supported'. macOS: 'QEMU requires the most recent macOS version that is currently available.'"
+        }
+      ]
+    },
+    {
+      "id": "matlab",
+      "name": "MATLAB R2026b",
+      "publisher": {
+        "name": "MathWorks",
+        "domains": [
+          "mathworks.com"
+        ]
+      },
+      "applies_to": {
+        "version": "R2026b",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.mathworks.com/support/requirements/matlab-system-requirements.html",
+          "title": "MATLAB R2026b System Requirements for Windows",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 (24H2, 25H2), Windows 10 (22H2)"
+            },
+            "cpu": {
+              "value": "Any Intel or AMD x86-64 processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "Minimum: 8 GB"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 4.6,
+              "quote": "4.6 GB for just MATLAB"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "Intel or AMD x86-64 with four logical cores and AVX2"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "Recommended: 16 GB"
+            },
+            "gpu": {
+              "value": "GPU supporting WebGL 2.0 with at least 2 GB of memory"
+            },
+            "vram_gb": {
+              "value": 2
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Storage: 5-8 GB for a typical installation, 25 GB for all products; an SSD is strongly recommended."
+        },
+        {
+          "kind": "normalized",
+          "text": "Recommended CPU says 'four logical cores' (threads), so cpu_cores is left empty."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows page was recorded; Mac and Linux pages not yet checked."
+        }
+      ]
+    },
+    {
+      "id": "solidworks",
+      "name": "SOLIDWORKS",
+      "publisher": {
+        "name": "Dassault Systemes SolidWorks",
+        "domains": [
+          "solidworks.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.solidworks.com/support/system-requirements",
+          "title": "SOLIDWORKS and SW Data Management System Requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 or Windows 10, 64-bit (Home editions not supported)"
+            },
+            "cpu": {
+              "value": "x86_64 (Intel 64 or AMD64)"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB (32 GB recommended)"
+            },
+            "gpu": {
+              "value": "Certified cards and drivers"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 32,
+              "quote": "32 GB recommended"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Drives: 'SSD drives recommended for optimal performance' (no size given)."
+        },
+        {
+          "kind": "quote",
+          "text": "'Windows Home Editions and Windows To Go are not supported.'"
+        }
+      ]
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "publisher": {
+        "name": "JetBrains",
+        "domains": [
+          "jetbrains.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/help/pycharm/installation-guide.html",
+          "title": "Install PyCharm - System requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10, 11"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 15, 26"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu 24.04/26.04 LTS, Fedora 43/44, Debian 13; glibc 2.28+"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One requirements table without minimum/recommended columns (treated as minimum). GPU not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "webstorm",
+      "name": "WebStorm",
+      "publisher": {
+        "name": "JetBrains",
+        "domains": [
+          "jetbrains.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/help/webstorm/installation-guide.html",
+          "title": "Install WebStorm - System requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10, 11"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 15, 26"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu 24.04/26.04 LTS, Fedora 43/44, Debian 13; glibc 2.28+"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One requirements table without minimum/recommended columns (treated as minimum). GPU not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "rider",
+      "name": "JetBrains Rider",
+      "publisher": {
+        "name": "JetBrains",
+        "domains": [
+          "jetbrains.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/help/rider/Installation_guide.html",
+          "title": "Install JetBrains Rider - System requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10, 11"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 15, 26"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu 24.04/26.04 LTS, Fedora 43/44, Debian 13; glibc 2.28+"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One requirements table without minimum/recommended columns (treated as minimum). GPU not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "clion",
+      "name": "CLion",
+      "publisher": {
+        "name": "JetBrains",
+        "domains": [
+          "jetbrains.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/help/clion/installation-guide.html",
+          "title": "Install CLion - System requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 10, 11"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "macos": {
+          "minimum": {
+            "os": {
+              "value": "macOS 15, 26"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        },
+        "linux": {
+          "minimum": {
+            "os": {
+              "value": "Ubuntu 24.04/26.04 LTS, Fedora 43/44, Debian 13; glibc 2.28+"
+            },
+            "cpu": {
+              "value": "x86_64 or arm64 CPU with 4 cores"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "4 cores"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of total RAM; 3 GB available for the IDE processes"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 10,
+              "quote": "10 GB"
+            },
+            "display": {
+              "value": "1280 x 720"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "One requirements table without minimum/recommended columns (treated as minimum). GPU not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "visualstudio",
+      "name": "Visual Studio 2026",
+      "publisher": {
+        "name": "Microsoft",
+        "domains": [
+          "microsoft.com"
+        ]
+      },
+      "applies_to": {
+        "version": "2026",
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/vs-system-requirements",
+          "title": "Visual Studio 2026 System Requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 (64-bit); Windows Server 2025, 2022, 2019"
+            },
+            "cpu": {
+              "value": "ARM64 or AMD64/x64 processor"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "Minimum of 4 GB of RAM"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 2.5,
+              "quote": "Minimum of 2.5 GB up to 210 GB"
+            },
+            "display": {
+              "value": "1366 x 768 (WXGA)"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "Quad-core or better"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "Quad-core or better recommended"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "We recommend 16 GB RAM for typical professional solutions"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "1920 x 1080 or higher"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "Typical installations require 20-50 GB of free space; works best with 16 cores and 64 GB RAM; SSD recommended."
+        }
+      ]
+    },
+    {
+      "id": "revit",
+      "name": "Autodesk Revit 2027",
+      "publisher": {
+        "name": "Autodesk",
+        "domains": [
+          "autodesk.com"
+        ]
+      },
+      "applies_to": {
+        "version": "2027",
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-Revit-2027-products.html",
+          "title": "System requirements for Revit 2027 products",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "64-bit Microsoft Windows 11"
+            },
+            "cpu": {
+              "value": "Intel or AMD processor with 2 GHz or higher base clock"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB RAM"
+            },
+            "gpu": {
+              "value": "DirectX 11 graphics card with Shader Model 5; 4GB of video memory recommended"
+            },
+            "vram_gb": {
+              "value": 4
+            },
+            "storage_gb": {
+              "value": 30,
+              "quote": "30 GB disk space for installation"
+            },
+            "display": {
+              "value": "1280 x 1024 with true color"
+            }
+          },
+          "recommended": {
+            "os": {
+              "value": "64-bit Microsoft Windows 11"
+            },
+            "cpu": {
+              "value": "Intel or AMD processor with 2 GHz or higher base clock; highest single core speed recommended"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 32,
+              "quote": "32 GB RAM or higher"
+            },
+            "gpu": {
+              "value": "DirectX 11 graphics card with Shader Model 5 and 6GB of video memory"
+            },
+            "vram_gb": {
+              "value": 6
+            },
+            "storage_gb": {
+              "value": 30,
+              "quote": "30 GB disk space for installation"
+            },
+            "display": {
+              "value": "1680 x 1050 with true color"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Autodesk's 'Entry-Level Configuration' is recorded as minimum and its 'Value: Balanced price and performance' configuration as recommended."
+        },
+        {
+          "kind": "quote",
+          "text": "100 GB of free disk space for temp files recommended. A 'Performance' configuration for large models also exists (not recorded)."
+        }
+      ]
+    },
+    {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "publisher": {
+        "name": "Adobe",
+        "domains": [
+          "adobe.com"
+        ]
+      },
+      "applies_to": {
+        "version": "30.0 and later",
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/illustrator/desktop/get-started/learn-the-basics/technical-requirements.html",
+          "title": "Illustrator on desktop technical requirements (last updated Apr 9, 2026)",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 v24H2/v23H2, Windows 10 v22H2/v21H2 LTSC"
+            },
+            "cpu": {
+              "value": "Multicore Intel (64-bit) with SSE 4.2 or AMD Athlon 64 with SSE 4.2"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 8,
+              "quote": "8 GB of RAM (16 GB recommended)"
+            },
+            "gpu": {
+              "value": "DirectX 12 or OpenGL 4.0 for the GPU Performance feature"
+            },
+            "vram_gb": {
+              "value": 1,
+              "quote": "a minimum of 1 GB of VRAM (4 GB recommended)"
+            },
+            "storage_gb": {
+              "value": 2,
+              "quote": "2 GB of available hard-disk space for installation"
+            },
+            "display": {
+              "value": "1024 x 768"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB recommended"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "value": 4,
+              "quote": "4 GB recommended"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "value": "1920 x 1080"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "GPU values apply to the optional GPU Performance feature; 1.5 GB of VRAM is required for optimum pan and zoom."
+        },
+        {
+          "kind": "maintainer",
+          "text": "Only the Windows column for version 30.0 and later was recorded; macOS not yet checked."
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom Workplace",
+      "publisher": {
+        "name": "Zoom",
+        "domains": [
+          "zoom.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "partially_verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060748",
+          "title": "Zoom Workplace desktop app system requirements",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "Windows 11 or Windows 10 (Home, Pro or Enterprise; not S Mode)"
+            },
+            "cpu": {
+              "value": "Dual-core 2Ghz or higher"
+            },
+            "cpu_cores": {
+              "value": 2,
+              "quote": "Dual-core"
+            },
+            "ram_gb": {
+              "value": 4,
+              "quote": "4 GB"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "value": "Quad-core 2.5Ghz or higher"
+            },
+            "cpu_cores": {
+              "value": 4,
+              "quote": "Quad-core"
+            },
+            "ram_gb": {
+              "value": 16,
+              "quote": "16 GB"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "text": "'Dual and single-core laptops have a reduced frame rate when screen sharing (around 5 frames per second).'"
+        },
+        {
+          "kind": "maintainer",
+          "text": "The same processor/RAM table covers macOS and Linux; only Windows was recorded so far."
+        }
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "publisher": {
+        "name": "Roblox",
+        "domains": [
+          "roblox.com"
+        ]
+      },
+      "applies_to": {
+        "version": null,
+        "edition": null
+      },
+      "status": "verified",
+      "checked_on": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://en.help.roblox.com/hc/en-us/articles/203312800-Computer-Hardware-Operating-System-Requirements",
+          "title": "Computer Hardware & Operating System Requirements - Roblox Support",
+          "retrieved_on": "2026-10-23"
+        }
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {
+              "value": "64-bit Windows 10 or Windows 11"
+            },
+            "cpu": {
+              "value": "Recent processor (2005+) at 1.6 Ghz or better"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "value": 1,
+              "quote": "at least 1 GB of memory"
+            },
+            "gpu": {
+              "value": "DirectX 10 or higher feature level support"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "value": 0.3,
+              "quote": "at least 300 MB of system storage space"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          },
+          "recommended": {
+            "os": {
+              "missing": "not_specified"
+            },
+            "cpu": {
+              "missing": "not_specified"
+            },
+            "cpu_cores": {
+              "missing": "not_specified"
+            },
+            "ram_gb": {
+              "missing": "not_specified"
+            },
+            "gpu": {
+              "missing": "not_specified"
+            },
+            "vram_gb": {
+              "missing": "not_specified"
+            },
+            "storage_gb": {
+              "missing": "not_specified"
+            },
+            "display": {
+              "missing": "not_specified"
+            }
+          }
+        }
+      },
+      "notes": [
+        {
+          "kind": "normalized",
+          "text": "Roblox phrases these as 'recommends you have at least ...'; recorded as minimum."
+        },
+        {
+          "kind": "quote",
+          "text": "For best performance: a computer less than 5 years old with a dedicated video card, or a laptop less than 3 years old."
+        }
+      ]
+    }
+  ]
+}

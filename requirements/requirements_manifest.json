@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "data_version": 1,
+  "published_on": "2026-10-24",
+  "requirements_file": "requirements.json",
+  "requirements_sha256": "91d62a43ac098e5b75362c84981cc51619a5b5b642aa12552b63b6e74f25c9ba",
+  "records_count": 35,
+  "min_app_version_code": 4
+}
