@@ -18,7 +18,16 @@ WHEN
 
 SIGNING
   Same key and passphrase as apps.json (C:\Users\DA\.pcadvisor\data_signing_key.pem).
-  Nothing new to set up.
+  Never upload or copy that .pem file anywhere: GitHub only ever needs the PUBLIC key.
+  Once per computer:  python -m pip install cryptography
+  Without it, validate_parts.py prints "signature NOT checked" and does NOT check the signature.
+
+ONLY THESE FILES ARE CURRENT (updated 24 Oct 2026)
+  parts/parts.json, parts/parts_manifest.json, parts/parts_manifest.json.sig,
+  parts/tools/*.py and this file. They are the ones on GitHub and on the website.
+  The copies in the main folder (parts.json, UPDATE_PARTS_STEPS.txt, tools/parts_rules.py,
+  tools/publish_parts.py, tools/validate_parts.py) are OLD: do not use or upload them.
+  See OBSOLETE_COPIES.txt in the main folder.
 
 
 STEP 1 - Edit parts.json
@@ -44,15 +53,26 @@ STEP 3 - Publish
   In the pcadvisor-data folder (the main one, not inside parts):
   1. python parts/tools/publish_parts.py      (checks everything, raises data_version, signs;
                                           asks for your signing passphrase)
-  2. python parts/tools/validate_parts.py     -> must show 0 errors
+  2. python parts/tools/validate_parts.py     -> must show 0 errors AND no "signature NOT checked"
   3. Upload these 3 files to the parts folder on GitHub (github.com/devgroupeapp/pcadvisor-data/parts):
        parts/parts.json
        parts/parts_manifest.json
        parts/parts_manifest.json.sig
      (also parts/tools/ and parts/.gitattributes the first time, or when they change)
-  4. Wait ~2 minutes, open
+     Upload all 3 together: the app refuses a manifest that does not match its parts.json.
+  4. Open github.com/devgroupeapp/pcadvisor-data/actions : the newest "Validate data" run
+     must be green. Red = something is wrong: fix it and upload again (the app keeps the old data).
+  5. Wait ~2 minutes, open
        https://devgroupeapp.github.io/pcadvisor-data/parts/parts_manifest.json
      and check data_version went up by 1.
+     (NOT .../pcadvisor-data/parts_manifest.json without parts/ : that address does not exist.)
+  6. For the next app release, copy the same 3 files byte-for-byte into the Android project
+     (copy the files, never open and re-save them):
+       parts/parts.json               -> app/src/main/assets/parts_catalog.json
+       parts/parts_manifest.json      -> app/src/main/assets/parts_manifest.json
+       parts/parts_manifest.json.sig  -> app/src/main/assets/parts_manifest.json.sig
+     The app then knows the bundled catalog's data_version, so an older download on a phone
+     can never hide the newer catalog inside a new app version.
   Re-sign without changing data:   python parts/tools/publish_parts.py --sign-only
   Require a newer app:             python parts/tools/publish_parts.py --min-app 6
      (only when parts.json uses something older app versions do not understand)

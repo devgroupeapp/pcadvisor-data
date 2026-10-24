@@ -10,4 +10,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/validate.py
+      # Without this library the validators skip the signature check with only a warning.
+      # Only the PUBLIC key (tools/data_signing_public.txt) is used here; the signing key never
+      # leaves the owner's PC.
+      - name: Install signature checker
+        run: python -m pip install "cryptography==44.0.0"
+      - name: Make sure signatures will really be checked
+        run: python -c "import cryptography"
+      - name: App requirements (apps.json + manifest.json + signature)
+        run: python tools/validate.py
+      - name: Parts (parts/parts.json + parts_manifest.json + signature)
+        run: python parts/tools/validate_parts.py
+      - name: Official requirements (skipped until requirements/ is published)
+        run: python tools/validate_requirements_release.py
