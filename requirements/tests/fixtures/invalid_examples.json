@@ -1,0 +1,114 @@
+{
+  "format": "pcadvisor-requirements",
+  "schema_version": 1,
+  "generated_on": "2026-10-20",
+  "records": [
+    {
+      "id": "bad_guessed_zero",
+      "name": "FICTIONAL BAD EXAMPLE - zero used for an unknown value",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.com"]},
+      "applies_to": {"version": null, "edition": null},
+      "status": "verified",
+      "checked_on": "2026-10-20",
+      "sources": [
+        {"url": "https://www.example.com/req", "title": "Requirements (fictional)", "retrieved_on": "2026-10-20"}
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {"value": "Windows 10"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 8},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"value": 0},
+            "storage_gb": {"value": 4},
+            "display": {"missing": "not_specified"}
+          },
+          "recommended": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 16},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"missing": "not_specified"},
+            "storage_gb": {"value": 4},
+            "display": {"missing": "not_specified"}
+          }
+        }
+      },
+      "notes": []
+    },
+    {
+      "id": "bad_third_party_source",
+      "name": "FICTIONAL BAD EXAMPLE - source not owned by the publisher",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.com"]},
+      "applies_to": {"version": null, "edition": null},
+      "status": "partially_verified",
+      "checked_on": "2026-10-20",
+      "sources": [
+        {"url": "https://some-review-blog.net/requirements?utm_source=x", "title": "A blog, not the publisher", "retrieved_on": "2026-10-20"}
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {"value": "Windows 10"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 8},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"missing": "not_specified"},
+            "storage_gb": {"missing": "not_specified"},
+            "display": {"missing": "not_specified"}
+          },
+          "recommended": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"missing": "not_specified"},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"missing": "not_specified"},
+            "storage_gb": {"missing": "not_specified"},
+            "display": {"missing": "not_specified"}
+          }
+        }
+      },
+      "notes": []
+    },
+    {
+      "id": "bad_heuristic_field",
+      "name": "FICTIONAL BAD EXAMPLE - app-made heavy value and value without a source",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.com"]},
+      "applies_to": {"version": null, "edition": null},
+      "status": "no_official_spec",
+      "checked_on": "2026-10-20",
+      "sources": [],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 16},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"missing": "not_specified"},
+            "storage_gb": {"missing": "not_specified"},
+            "display": {"missing": "not_specified"}
+          },
+          "recommended": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"missing": "not_specified"},
+            "gpu": {"missing": "not_specified"},
+            "vram_gb": {"missing": "not_specified"},
+            "storage_gb": {"missing": "not_specified"},
+            "display": {"missing": "not_specified"},
+            "heavy_ram_gb": {"value": 64}
+          }
+        }
+      },
+      "notes": []
+    }
+  ]
+}

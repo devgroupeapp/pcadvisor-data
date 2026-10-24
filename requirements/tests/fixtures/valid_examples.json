@@ -1,0 +1,132 @@
+{
+  "format": "pcadvisor-requirements",
+  "schema_version": 1,
+  "generated_on": "2026-10-20",
+  "records": [
+    {
+      "id": "example_verified",
+      "name": "FICTIONAL EXAMPLE - Photo Editor",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.com"]},
+      "applies_to": {"version": "2026", "edition": null},
+      "status": "verified",
+      "checked_on": "2026-10-20",
+      "sources": [
+        {"url": "https://help.example.com/editor/system-requirements", "title": "Editor 2026 system requirements (fictional)", "retrieved_on": "2026-10-20"}
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {"value": "Windows 10 64-bit (22H2) or later", "quote": "Windows 10 (64-bit) version 22H2 or later"},
+            "cpu": {"value": "x64 CPU with SSE4.2"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 8, "quote": "8 GB of RAM"},
+            "gpu": {"value": "GPU with DirectX 12 support"},
+            "vram_gb": {"value": 2},
+            "storage_gb": {"value": 10},
+            "display": {"value": "1280x800"}
+          },
+          "recommended": {
+            "os": {"value": "Windows 11 64-bit"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 16},
+            "gpu": {"value": "GPU with DirectX 12 support"},
+            "vram_gb": {"value": 4},
+            "storage_gb": {"value": 10},
+            "display": {"value": "1920x1080"}
+          }
+        }
+      },
+      "notes": [
+        {"kind": "normalized", "text": "Fictional record used only to test the validator. Not a real product."}
+      ]
+    },
+    {
+      "id": "example_partial",
+      "name": "FICTIONAL EXAMPLE - Code Editor",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.org"]},
+      "applies_to": {"version": null, "edition": "Community"},
+      "status": "partially_verified",
+      "checked_on": "2026-10-21",
+      "sources": [
+        {"url": "https://docs.example.org/setup/requirements", "title": "Requirements (fictional)", "retrieved_on": "2026-10-21"}
+      ],
+      "platforms": {
+        "windows": {
+          "minimum": {
+            "os": {"value": "Windows 10 64-bit"},
+            "cpu": {"missing": "not_verified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"value": 4},
+            "gpu": {"missing": "not_applicable"},
+            "vram_gb": {"missing": "not_applicable"},
+            "storage_gb": {"missing": "not_verified"},
+            "display": {"missing": "not_specified"}
+          },
+          "recommended": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"missing": "not_specified"},
+            "gpu": {"missing": "not_applicable"},
+            "vram_gb": {"missing": "not_applicable"},
+            "storage_gb": {"missing": "not_specified"},
+            "display": {"missing": "not_specified"}
+          }
+        }
+      },
+      "notes": [
+        {"kind": "maintainer", "text": "Fictional. CPU and storage on the page were not checked yet."}
+      ]
+    },
+    {
+      "id": "example_no_spec",
+      "name": "FICTIONAL EXAMPLE - Web Notes",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.net"]},
+      "applies_to": {"version": null, "edition": null},
+      "status": "no_official_spec",
+      "checked_on": "2026-10-22",
+      "sources": [],
+      "platforms": {
+        "web": {
+          "minimum": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"missing": "not_specified"},
+            "gpu": {"missing": "not_applicable"},
+            "vram_gb": {"missing": "not_applicable"},
+            "storage_gb": {"missing": "not_applicable"},
+            "display": {"missing": "not_specified"}
+          },
+          "recommended": {
+            "os": {"missing": "not_specified"},
+            "cpu": {"missing": "not_specified"},
+            "cpu_cores": {"missing": "not_specified"},
+            "ram_gb": {"missing": "not_specified"},
+            "gpu": {"missing": "not_applicable"},
+            "vram_gb": {"missing": "not_applicable"},
+            "storage_gb": {"missing": "not_applicable"},
+            "display": {"missing": "not_specified"}
+          }
+        }
+      },
+      "notes": []
+    },
+    {
+      "id": "example_blocked",
+      "name": "FICTIONAL EXAMPLE - CAD Tool",
+      "publisher": {"name": "Example Publisher (fictional)", "domains": ["example.com"]},
+      "applies_to": {"version": "2026", "edition": null},
+      "status": "verification_blocked",
+      "checked_on": "2026-10-22",
+      "sources": [
+        {"url": "https://www.example.com/cad/requirements", "title": "CAD requirements (page returned 403)", "retrieved_on": "2026-10-22"}
+      ],
+      "platforms": {},
+      "notes": [
+        {"kind": "maintainer", "text": "Fictional. Page could not be opened; nothing recorded."}
+      ]
+    }
+  ]
+}
