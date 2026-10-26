@@ -16,7 +16,14 @@ REQ = {
 }
 RANGES = {"cores": (1, 128), "threads": (1, 256), "tdp_w": (1, 2000), "vram_gb": (0, 64),
           "bus_bits": (32, 1024), "board_power_w": (1, 2000), "recommended_psu_w": (1, 2000),
-          "capacity_gb": (1, 64000), "speed_mts": (800, 12000), "modules": (1, 8), "watts": (1, 2000)}
+          "capacity_gb": (1, 64000), "speed_mts": (800, 12000), "modules": (1, 8), "watts": (1, 2000),
+          # optional official details (catalog v3): checked only when present
+          "max_power_w": (1, 2000), "cache_mb": (1, 1024), "boost_mhz": (100, 5000), "length_mm": (50, 500),
+          "displays": (1, 8)}
+DECIMAL_RANGES = {"base_ghz": (0.5, 7.0), "boost_ghz": (0.5, 7.0)}
+BOOLEAN_SPECS = ("integrated_graphics", "cooler_included")
+# launch_msrp = maker's launch price, reference = other reference price, rcp = Intel Recommended Customer Price
+PRICE_KINDS = ("launch_msrp", "reference", "rcp")
 CURRENCIES = {"MAD", "USD", "EUR", "GBP", "JPY", "CNY", "CHF", "CAD", "AUD", "INR", "KRW",
               "BRL", "MXN", "ZAR", "TRY", "SEK", "SAR", "AED"}
 
@@ -65,6 +72,16 @@ def check_catalog(cat):
                     e(f"{pid}: {k} must be a whole number")
                 elif not lo <= specs[k] <= hi:
                     e(f"{pid}: {k} out of range {lo}..{hi}")
+        for k, (lo, hi) in DECIMAL_RANGES.items():
+            if k in specs:
+                v = specs[k]
+                if not isinstance(v, (int, float)) or isinstance(v, bool) or not lo <= v <= hi:
+                    e(f"{pid}: {k} out of range {lo}..{hi}")
+        for k in BOOLEAN_SPECS:
+            if k in specs and not isinstance(specs[k], bool):
+                e(f"{pid}: {k} must be true or false")
+        if p.get("spec_checked") is not None and not ISO.match(str(p["spec_checked"])):
+            e(f"{pid}: spec_checked must be YYYY-MM-DD")
         if t == "cpu" and is_int(specs.get("threads")) and is_int(specs.get("cores")) \
                 and specs["threads"] < specs["cores"]:
             e(f"{pid}: threads<cores")
@@ -86,8 +103,8 @@ def check_catalog(cat):
                 e(f"{pid}: price.reference must be a whole number 1..20000")
             if pr.get("usual") is not None and not is_int(pr["usual"]):
                 e(f"{pid}: price.usual must be a whole number or null")
-            if pr.get("kind") not in ("launch_msrp", "reference"):
-                e(f"{pid}: price.kind must be launch_msrp or reference")
+            if pr.get("kind") not in PRICE_KINDS:
+                e(f"{pid}: price.kind must be one of {', '.join(PRICE_KINDS)}")
             if not pr.get("source") or not ISO.match(str(pr.get("as_of", ""))):
                 e(f"{pid}: price without source/as_of")
         if not generic and not str(p.get("spec_source", "")).startswith("https://"):

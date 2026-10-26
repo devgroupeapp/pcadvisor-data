@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-26",
   "currency": "USD",
   "fx": {
     "base": "USD",
@@ -169,7 +169,14 @@
         "cores": 6,
         "threads": 12,
         "tdp_w": 65,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 3.8,
+        "boost_ghz": 5.1,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "cooler_included": true,
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
@@ -179,7 +186,8 @@
         "as_of": "2023-01-04",
         "source": "https://www.amd.com/en/newsroom/press-releases/2023-1-4-amd-extends-its-leadership-with-the-introduction-o.html"
       },
-      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_ryzen5_9600x",
@@ -193,7 +201,14 @@
         "cores": 6,
         "threads": 12,
         "tdp_w": 65,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 3.9,
+        "boost_ghz": 5.4,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
@@ -203,7 +218,8 @@
         "as_of": "2024-08-07",
         "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
       },
-      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_ryzen7_9700x",
@@ -217,7 +233,14 @@
         "cores": 8,
         "threads": 16,
         "tdp_w": 65,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 3.8,
+        "boost_ghz": 5.5,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
@@ -227,7 +250,8 @@
         "as_of": "2024-08-07",
         "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
       },
-      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_ryzen7_9800x3d",
@@ -241,7 +265,14 @@
         "cores": 8,
         "threads": 16,
         "tdp_w": 120,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 4.7,
+        "boost_ghz": 5.2,
+        "cache_mb": 96,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
@@ -251,7 +282,8 @@
         "as_of": "2024-10-31",
         "source": "https://www.amd.com/en/newsroom/press-releases/2024-10-31-the-gaming-legend-continues--amd-introduces-next-.html"
       },
-      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_ryzen9_9900x",
@@ -265,7 +297,14 @@
         "cores": 12,
         "threads": 24,
         "tdp_w": 120,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 4.4,
+        "boost_ghz": 5.6,
+        "cache_mb": 64,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
@@ -275,7 +314,8 @@
         "as_of": "2024-08-07",
         "source": "https://www.guru3d.com/story/amd-ryzen-9000-series-processors-pricing-now-official/"
       },
-      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_core_i5_14400f",
@@ -289,17 +329,25 @@
         "cores": 10,
         "threads": 16,
         "tdp_w": 65,
-        "memory_type": "DDR4/DDR5"
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 2.5,
+        "boost_ghz": 4.7,
+        "cache_mb": 20,
+        "max_power_w": 148,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-4800, DDR4-3200",
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
         "reference": 196,
         "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2024-01-08",
+        "kind": "rcp",
+        "as_of": "2026-10-26",
         "source": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html"
       },
-      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html"
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_core_ultra5_245k",
@@ -313,17 +361,25 @@
         "cores": 14,
         "threads": 14,
         "tdp_w": 125,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 4.2,
+        "boost_ghz": 5.2,
+        "cache_mb": 24,
+        "max_power_w": 159,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-6400",
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
         "reference": 309,
         "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2024-10-24",
+        "kind": "rcp",
+        "as_of": "2026-10-26",
         "source": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
       },
-      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "cpu_core_ultra7_265k",
@@ -337,209 +393,896 @@
         "cores": 20,
         "threads": 20,
         "tdp_w": 125,
-        "memory_type": "DDR5"
+        "memory_type": "DDR5",
+        "base_ghz": 3.9,
+        "boost_ghz": 5.5,
+        "cache_mb": 30,
+        "max_power_w": 250,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-6400",
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
         "reference": 394,
         "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2024-10-24",
+        "kind": "rcp",
+        "as_of": "2026-10-26",
         "source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
       },
-      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rtx_5060",
-      "type": "gpu",
-      "brand": "NVIDIA",
-      "name": "GeForce RTX 5060",
-      "released": "2025-05",
+      "id": "cpu_ryzen5_5500",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 5500",
+      "released": "2022-04",
       "generic": false,
       "specs": {
-        "vram_gb": 8,
-        "vram_type": "GDDR7",
-        "bus_bits": 128,
-        "board_power_w": 145,
-        "recommended_psu_w": 550
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR4",
+        "base_ghz": 3.6,
+        "boost_ghz": 4.2,
+        "cache_mb": 16,
+        "integrated_graphics": false,
+        "max_memory": "DDR4-3200",
+        "cooler_included": true,
+        "pcie": "3.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 159,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-03-15",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-3-15-amd-launches-the-ultimate-gaming-processor-brings.html"
+      },
+      "spec_source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen5_5600",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 5600",
+      "released": "2022-04",
+      "generic": false,
+      "specs": {
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR4",
+        "base_ghz": 3.5,
+        "boost_ghz": 4.4,
+        "cache_mb": 32,
+        "integrated_graphics": false,
+        "max_memory": "DDR4-3200",
+        "cooler_included": true,
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 199,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-03-15",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-3-15-amd-launches-the-ultimate-gaming-processor-brings.html"
+      },
+      "spec_source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen7_5700x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 5700X",
+      "released": "2022-04",
+      "generic": false,
+      "specs": {
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR4",
+        "base_ghz": 3.4,
+        "boost_ghz": 4.6,
+        "cache_mb": 32,
+        "integrated_graphics": false,
+        "max_memory": "DDR4-3200",
+        "cooler_included": false,
+        "pcie": "4.0"
       },
       "bench": null,
       "price": {
         "reference": 299,
         "usual": null,
         "kind": "launch_msrp",
-        "as_of": "2025-04-15",
-        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+        "as_of": "2022-03-15",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-3-15-amd-launches-the-ultimate-gaming-processor-brings.html"
       },
-      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+      "spec_source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rtx_5060ti_16",
-      "type": "gpu",
-      "brand": "NVIDIA",
-      "name": "GeForce RTX 5060 Ti 16 GB",
-      "released": "2025-04",
+      "id": "cpu_ryzen7_5700x3d",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 5700X3D",
+      "released": "2024-01",
       "generic": false,
       "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR7",
-        "bus_bits": 128,
-        "board_power_w": 180,
-        "recommended_psu_w": 600
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 105,
+        "memory_type": "DDR4",
+        "base_ghz": 3.0,
+        "boost_ghz": 4.1,
+        "cache_mb": 96,
+        "integrated_graphics": false,
+        "max_memory": "DDR4-3200",
+        "cooler_included": false,
+        "pcie": "4.0"
       },
       "bench": null,
       "price": {
-        "reference": 429,
+        "reference": 249,
         "usual": null,
         "kind": "launch_msrp",
-        "as_of": "2025-04-15",
-        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+        "as_of": "2024-01-08",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-1-8-amd-reveals-next-gen-desktop-processors-for-extrem.html"
       },
-      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+      "spec_source": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rtx_5070",
-      "type": "gpu",
-      "brand": "NVIDIA",
-      "name": "GeForce RTX 5070",
-      "released": "2025-03",
+      "id": "cpu_ryzen5_7600x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 7600X",
+      "released": "2022-09",
       "generic": false,
       "specs": {
-        "vram_gb": 12,
-        "vram_type": "GDDR7",
-        "bus_bits": 192,
-        "board_power_w": 250,
-        "recommended_psu_w": 650
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 105,
+        "memory_type": "DDR5",
+        "base_ghz": 4.7,
+        "boost_ghz": 5.3,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "cooler_included": false,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 299,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-08-29",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-8-29-amd-launches-ryzen-7000-series-desktop-processors-.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen7_7700",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 7700",
+      "released": "2023-01",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 3.8,
+        "boost_ghz": 5.3,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 329,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-01-04",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-1-4-amd-extends-its-leadership-with-the-introduction-o.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen7_7800x3d",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 7800X3D",
+      "released": "2023-04",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 120,
+        "memory_type": "DDR5",
+        "base_ghz": 4.2,
+        "boost_ghz": 5.0,
+        "cache_mb": 96,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "cooler_included": false,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen9_7900x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 9 7900X",
+      "released": "2022-09",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 12,
+        "threads": 24,
+        "tdp_w": 170,
+        "memory_type": "DDR5",
+        "base_ghz": 4.7,
+        "boost_ghz": 5.6,
+        "cache_mb": 64,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "cooler_included": false
       },
       "bench": null,
       "price": {
         "reference": 549,
         "usual": null,
         "kind": "launch_msrp",
-        "as_of": "2025-01-06",
-        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+        "as_of": "2022-08-29",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-8-29-amd-launches-ryzen-7000-series-desktop-processors-.html"
       },
-      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rtx_5070ti",
-      "type": "gpu",
-      "brand": "NVIDIA",
-      "name": "GeForce RTX 5070 Ti",
+      "id": "cpu_ryzen9_7950x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 9 7950X",
+      "released": "2022-09",
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 16,
+        "threads": 32,
+        "tdp_w": 170,
+        "memory_type": "DDR5",
+        "base_ghz": 4.5,
+        "boost_ghz": 5.7,
+        "cache_mb": 64,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "cooler_included": false,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 699,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-08-29",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-8-29-amd-launches-ryzen-7000-series-desktop-processors-.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen5_8500g",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 8500G",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 3.5,
+        "boost_ghz": 5.0,
+        "cache_mb": 16,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 179,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-1-8-amd-reveals-next-gen-desktop-processors-for-extrem.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8500g.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen5_8600g",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 8600G",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 4.3,
+        "boost_ghz": 5.0,
+        "cache_mb": 16,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 229,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-1-8-amd-reveals-next-gen-desktop-processors-for-extrem.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen7_8700g",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 7 8700G",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 4.2,
+        "boost_ghz": 5.1,
+        "cache_mb": 16,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5200",
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 329,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-1-8-amd-reveals-next-gen-desktop-processors-for-extrem.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_ryzen5_9600",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 5 9600",
       "released": "2025-02",
       "generic": false,
       "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR7",
-        "bus_bits": 256,
-        "board_power_w": 300,
-        "recommended_psu_w": 750
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 3.8,
+        "boost_ghz": 5.2,
+        "cache_mb": 32,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": true,
+        "pcie": "5.0"
       },
       "bench": null,
-      "price": {
-        "reference": 749,
-        "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2025-01-06",
-        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
-      },
-      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+      "price": null,
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rtx_5080",
-      "type": "gpu",
-      "brand": "NVIDIA",
-      "name": "GeForce RTX 5080",
-      "released": "2025-01",
+      "id": "cpu_ryzen9_9950x",
+      "type": "cpu",
+      "brand": "AMD",
+      "name": "Ryzen 9 9950X",
+      "released": "2024-08",
       "generic": false,
       "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR7",
-        "bus_bits": 256,
-        "board_power_w": 360,
-        "recommended_psu_w": 850
+        "socket": "AM5",
+        "cores": 16,
+        "threads": 32,
+        "tdp_w": 170,
+        "memory_type": "DDR5",
+        "base_ghz": 4.3,
+        "boost_ghz": 5.7,
+        "cache_mb": 64,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
-      "price": {
-        "reference": 999,
-        "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2025-01-06",
-        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
-      },
-      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/"
+      "price": null,
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rx_9060xt_16",
-      "type": "gpu",
+      "id": "cpu_ryzen9_9950x3d",
+      "type": "cpu",
       "brand": "AMD",
-      "name": "Radeon RX 9060 XT 16 GB",
-      "released": "2025-06",
-      "generic": false,
-      "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR6",
-        "bus_bits": 128,
-        "board_power_w": 160,
-        "recommended_psu_w": 450
-      },
-      "bench": null,
-      "price": {
-        "reference": 349,
-        "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2025-05-20",
-        "source": "https://www.amd.com/en/newsroom/press-releases/2025-5-20-amd-introduces-new-radeon-graphics-cards-and-ryzen.html"
-      },
-      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html"
-    },
-    {
-      "id": "gpu_rx_9070",
-      "type": "gpu",
-      "brand": "AMD",
-      "name": "Radeon RX 9070",
+      "name": "Ryzen 9 9950X3D",
       "released": "2025-03",
       "generic": false,
       "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR6",
-        "bus_bits": 256,
-        "board_power_w": 220,
-        "recommended_psu_w": 650
+        "socket": "AM5",
+        "cores": 16,
+        "threads": 32,
+        "tdp_w": 170,
+        "memory_type": "DDR5",
+        "base_ghz": 4.3,
+        "boost_ghz": 5.7,
+        "cache_mb": 128,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600",
+        "cooler_included": false,
+        "pcie": "5.0"
       },
       "bench": null,
-      "price": {
-        "reference": 549,
-        "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2025-02-28",
-        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
-      },
-      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html"
+      "price": null,
+      "spec_source": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+      "spec_checked": "2026-10-26"
     },
     {
-      "id": "gpu_rx_9070xt",
-      "type": "gpu",
-      "brand": "AMD",
-      "name": "Radeon RX 9070 XT",
-      "released": "2025-03",
+      "id": "cpu_core_i3_14100f",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i3-14100F",
+      "released": null,
       "generic": false,
       "specs": {
-        "vram_gb": 16,
-        "vram_type": "GDDR6",
-        "bus_bits": 256,
-        "board_power_w": 304,
-        "recommended_psu_w": 750
+        "socket": "LGA1700",
+        "cores": 4,
+        "threads": 8,
+        "tdp_w": 58,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.5,
+        "boost_ghz": 4.7,
+        "cache_mb": 12,
+        "max_power_w": 110,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-4800, DDR4-3200",
+        "pcie": "5.0"
       },
       "bench": null,
       "price": {
-        "reference": 599,
+        "reference": 109,
         "usual": null,
-        "kind": "launch_msrp",
-        "as_of": "2025-02-28",
-        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html"
       },
-      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html"
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236786/intel-core-i3-processor-14100f-12m-cache-up-to-4-70-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i5_12400f",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i5-12400F",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 2.5,
+        "boost_ghz": 4.4,
+        "cache_mb": 18,
+        "max_power_w": 117,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-4800, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 184,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i5_14400",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i5-14400",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 10,
+        "threads": 16,
+        "tdp_w": 65,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 2.5,
+        "boost_ghz": 4.7,
+        "cache_mb": 20,
+        "max_power_w": 148,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-4800, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 221,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i5_12600k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i5-12600K",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 10,
+        "threads": 16,
+        "tdp_w": 125,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.7,
+        "boost_ghz": 4.9,
+        "cache_mb": 20,
+        "max_power_w": 150,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-4800, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 318,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i5_14600kf",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i5-14600KF",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 14,
+        "threads": 20,
+        "tdp_w": 125,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.5,
+        "boost_ghz": 5.3,
+        "cache_mb": 24,
+        "max_power_w": 181,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-5600, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 294,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i7_14700k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i7-14700K",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 20,
+        "threads": 28,
+        "tdp_w": 125,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.4,
+        "boost_ghz": 5.6,
+        "cache_mb": 33,
+        "max_power_w": 253,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 409,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236783/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i7_14700kf",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i7-14700KF",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 20,
+        "threads": 28,
+        "tdp_w": 125,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.4,
+        "boost_ghz": 5.6,
+        "cache_mb": 33,
+        "max_power_w": 253,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-5600, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 384,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_i9_14900k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core i9-14900K",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "cores": 24,
+        "threads": 32,
+        "tdp_w": 125,
+        "memory_type": "DDR4/DDR5",
+        "base_ghz": 3.2,
+        "boost_ghz": 6.0,
+        "cache_mb": 36,
+        "max_power_w": 253,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-5600, DDR4-3200",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 589,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_ultra5_225f",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core Ultra 5 225F",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "cores": 10,
+        "threads": 10,
+        "tdp_w": 65,
+        "memory_type": "DDR5",
+        "base_ghz": 3.3,
+        "boost_ghz": 4.9,
+        "cache_mb": 20,
+        "max_power_w": 121,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-6400",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 165,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_ultra7_265kf",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core Ultra 7 265KF",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "cores": 20,
+        "threads": 20,
+        "tdp_w": 125,
+        "memory_type": "DDR5",
+        "base_ghz": 3.9,
+        "boost_ghz": 5.5,
+        "cache_mb": 30,
+        "max_power_w": 250,
+        "integrated_graphics": false,
+        "max_memory": "DDR5-6400",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 379,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cpu_core_ultra9_285k",
+      "type": "cpu",
+      "brand": "Intel",
+      "name": "Core Ultra 9 285K",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "cores": 24,
+        "threads": 24,
+        "tdp_w": 125,
+        "memory_type": "DDR5",
+        "base_ghz": 3.7,
+        "boost_ghz": 5.7,
+        "cache_mb": 36,
+        "max_power_w": 250,
+        "integrated_graphics": true,
+        "max_memory": "DDR5-6400",
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 589,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_b650_am5",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B650 chipset board (AM5)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "memory_type": "DDR5",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b760_ddr4",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B760 chipset board, DDR4 version (LGA1700)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memory_type": "DDR4",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b860_lga1851",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B860 chipset board (LGA1851)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "LGA1851",
+        "chipset": "B860",
+        "memory_type": "DDR5",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "mb_b550_am4",
+      "type": "motherboard",
+      "brand": null,
+      "name": "B550 chipset board (AM4)",
+      "released": null,
+      "generic": true,
+      "specs": {
+        "socket": "AM4",
+        "chipset": "B550",
+        "memory_type": "DDR4",
+        "form_factor": "ATX / Micro-ATX"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "Generic part class. Check the exact model's specification before buying."
     },
     {
       "id": "ram_16_ddr4_3200",
@@ -610,6 +1353,709 @@
       "spec_source": "Generic part class. Check the exact model's specification before buying."
     },
     {
+      "id": "gpu_rtx_5060",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5060",
+      "released": "2025-05",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR7",
+        "bus_bits": 128,
+        "board_power_w": 145,
+        "recommended_psu_w": 550,
+        "boost_mhz": 2500,
+        "power_connector": "1x 8-pin or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 299,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-04-15",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5060ti_16",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5060 Ti 16 GB",
+      "released": "2025-04",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 128,
+        "board_power_w": 180,
+        "recommended_psu_w": 600,
+        "boost_mhz": 2570,
+        "power_connector": "1x 8-pin or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 429,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-04-15",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5070",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5070",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR7",
+        "bus_bits": 192,
+        "board_power_w": 250,
+        "recommended_psu_w": 650,
+        "boost_mhz": 2510,
+        "power_connector": "2x 8-pin (adapter included) or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0",
+        "length_mm": 242
+      },
+      "bench": null,
+      "price": {
+        "reference": 549,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5070ti",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5070 Ti",
+      "released": "2025-02",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 256,
+        "board_power_w": 300,
+        "recommended_psu_w": 750,
+        "boost_mhz": 2450,
+        "power_connector": "2x 8-pin (adapter included) or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 749,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5080",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5080",
+      "released": "2025-01",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR7",
+        "bus_bits": 256,
+        "board_power_w": 360,
+        "recommended_psu_w": 850,
+        "boost_mhz": 2620,
+        "power_connector": "3x 8-pin (adapter included) or 1x 450 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0",
+        "length_mm": 304
+      },
+      "bench": null,
+      "price": {
+        "reference": 999,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_9060xt_16",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9060 XT 16 GB",
+      "released": "2025-06",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 160,
+        "recommended_psu_w": 450,
+        "boost_mhz": 3130,
+        "power_connector": "1x 8-pin",
+        "pcie": "5.0 x16"
+      },
+      "bench": null,
+      "price": {
+        "reference": 349,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-05-20",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2025-5-20-amd-introduces-new-radeon-graphics-cards-and-ryzen.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_9070",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9070",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 220,
+        "recommended_psu_w": 650,
+        "boost_mhz": 2520,
+        "power_connector": "2x 8-pin",
+        "pcie": "5.0 x16"
+      },
+      "bench": null,
+      "price": {
+        "reference": 549,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-02-28",
+        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_9070xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9070 XT",
+      "released": "2025-03",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 304,
+        "recommended_psu_w": 750,
+        "boost_mhz": 2970,
+        "power_connector": "2x 8-pin",
+        "pcie": "5.0 x16"
+      },
+      "bench": null,
+      "price": {
+        "reference": 599,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-02-28",
+        "source": "https://newsroom.amd.com/news/amd-unveils-next-generation-amd-rdna-4-architectu/"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5090",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5090",
+      "released": "2025-01",
+      "generic": false,
+      "specs": {
+        "vram_gb": 32,
+        "vram_type": "GDDR7",
+        "bus_bits": 512,
+        "board_power_w": 575,
+        "recommended_psu_w": 1000,
+        "boost_mhz": 2410,
+        "power_connector": "4x 8-pin (adapter included) or 1x 600 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0",
+        "length_mm": 304
+      },
+      "bench": null,
+      "price": {
+        "reference": 1999,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-01-06",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5060ti_8",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5060 Ti 8 GB",
+      "released": "2025-04",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR7",
+        "bus_bits": 128,
+        "board_power_w": 180,
+        "recommended_psu_w": 600,
+        "boost_mhz": 2570,
+        "power_connector": "1x 8-pin or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 379,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-04-15",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-geforce-rtx-arrives-for-every-gamer-starting-at-299"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_5050",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 5050",
+      "released": "2025-07",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 130,
+        "recommended_psu_w": 550,
+        "boost_mhz": 2570,
+        "power_connector": "1x 8-pin or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "5.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 249,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-06-24",
+        "source": "https://www.nvidia.com/en-us/geforce/news/rtx-5050-desktop-gpu-and-laptops/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_4070_super",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 4070 SUPER",
+      "released": "2024-01",
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR6X",
+        "bus_bits": 192,
+        "board_power_w": 220,
+        "recommended_psu_w": 650,
+        "boost_mhz": 2480,
+        "power_connector": "2x 8-pin (adapter included)",
+        "displays": 4,
+        "pcie": "4.0",
+        "length_mm": 244
+      },
+      "bench": null,
+      "price": {
+        "reference": 599,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_4060ti_8",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 4060 Ti 8 GB",
+      "released": "2023-05",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 165,
+        "recommended_psu_w": 550,
+        "boost_mhz": 2540,
+        "power_connector": "1x 8-pin (adapter included) or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "4.0",
+        "length_mm": 244
+      },
+      "bench": null,
+      "price": {
+        "reference": 399,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-05-18",
+        "source": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4060-4060ti/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_4060",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 4060",
+      "released": "2023-06",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 115,
+        "recommended_psu_w": 550,
+        "boost_mhz": 2460,
+        "power_connector": "1x 8-pin (adapter included) or 300 W PCIe Gen 5 cable",
+        "displays": 4,
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 299,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-05-18",
+        "source": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-4060-4060ti/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_3060_12",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 3060 12 GB",
+      "released": "2021-02",
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR6",
+        "bus_bits": 192,
+        "board_power_w": 170,
+        "recommended_psu_w": 550,
+        "boost_mhz": 1780,
+        "power_connector": "1x 8-pin",
+        "displays": 4,
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": {
+        "reference": 329,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2021-01-12",
+        "source": "https://www.nvidia.com/en-us/geforce/news/geforce-rtx-3060/"
+      },
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rtx_3050_6",
+      "type": "gpu",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 3050 6 GB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "vram_gb": 6,
+        "vram_type": "GDDR6",
+        "bus_bits": 96,
+        "board_power_w": 70,
+        "recommended_psu_w": 300,
+        "boost_mhz": 1470,
+        "power_connector": "None needed",
+        "displays": 4,
+        "pcie": "4.0"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_9060xt_8",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 9060 XT 8 GB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 150,
+        "recommended_psu_w": 450,
+        "boost_mhz": 3130,
+        "power_connector": "1x 8-pin",
+        "pcie": "5.0 x16"
+      },
+      "bench": null,
+      "price": {
+        "reference": 299,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2025-05-20",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2025-5-20-amd-introduces-new-radeon-graphics-cards-and-ryzen.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt-8gb.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7600",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7600",
+      "released": "2023-05",
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 165,
+        "recommended_psu_w": 550,
+        "boost_mhz": 2655,
+        "power_connector": "1x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 269,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-05-24",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-5-24-amd-introduces-amd-radeon-rx-7600-graphics-card-f.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7600xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7600 XT",
+      "released": "2024-01",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 128,
+        "board_power_w": 190,
+        "recommended_psu_w": 600,
+        "boost_mhz": 2755,
+        "power_connector": "2x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 329,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2024-01-08",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-1-8-amd-unveils-amd-radeon-rx-7600-xt-graphics-card--.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600-xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7700xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7700 XT",
+      "released": "2023-09",
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR6",
+        "bus_bits": 192,
+        "board_power_w": 245,
+        "recommended_psu_w": 700,
+        "boost_mhz": 2544,
+        "power_connector": "2x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 449,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-08-25",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-8-25-new-amd-radeon-rx-7800-xt-and-radeon-rx-7700-xt-gr.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7700-xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7800xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7800 XT",
+      "released": "2023-09",
+      "generic": false,
+      "specs": {
+        "vram_gb": 16,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 263,
+        "recommended_psu_w": 700,
+        "boost_mhz": 2430,
+        "power_connector": "2x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 499,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2023-08-25",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-8-25-new-amd-radeon-rx-7800-xt-and-radeon-rx-7700-xt-gr.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7800-xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7900xt",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7900 XT",
+      "released": "2022-12",
+      "generic": false,
+      "specs": {
+        "vram_gb": 20,
+        "vram_type": "GDDR6",
+        "bus_bits": 320,
+        "board_power_w": 315,
+        "recommended_psu_w": 750,
+        "boost_mhz": 2400,
+        "power_connector": "2x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 899,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-11-03",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-11-3-amd-unveils-world-s-most-advanced-gaming-graphics-.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xt.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_rx_7900xtx",
+      "type": "gpu",
+      "brand": "AMD",
+      "name": "Radeon RX 7900 XTX",
+      "released": "2022-12",
+      "generic": false,
+      "specs": {
+        "vram_gb": 24,
+        "vram_type": "GDDR6",
+        "bus_bits": 384,
+        "board_power_w": 355,
+        "recommended_psu_w": 800,
+        "boost_mhz": 2500,
+        "power_connector": "2x 8-pin"
+      },
+      "bench": null,
+      "price": {
+        "reference": 999,
+        "usual": null,
+        "kind": "launch_msrp",
+        "as_of": "2022-11-03",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2022-11-3-amd-unveils-world-s-most-advanced-gaming-graphics-.html"
+      },
+      "spec_source": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xtx.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_arc_b580",
+      "type": "gpu",
+      "brand": "Intel",
+      "name": "Arc B580",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "vram_gb": 12,
+        "vram_type": "GDDR6",
+        "bus_bits": 192,
+        "board_power_w": 190,
+        "recommended_psu_w": 600,
+        "boost_mhz": 2670,
+        "power_connector": "1x 8-pin",
+        "length_mm": 272,
+        "displays": 4,
+        "pcie": "4.0 x8"
+      },
+      "bench": null,
+      "price": {
+        "reference": 249,
+        "usual": null,
+        "kind": "rcp",
+        "as_of": "2026-10-26",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html"
+      },
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "gpu_arc_a750",
+      "type": "gpu",
+      "brand": "Intel",
+      "name": "Arc A750",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "vram_gb": 8,
+        "vram_type": "GDDR6",
+        "bus_bits": 256,
+        "board_power_w": 225,
+        "recommended_psu_w": 600,
+        "boost_mhz": 2050,
+        "power_connector": "1x 8-pin + 1x 6-pin",
+        "displays": 4,
+        "pcie": "4.0 x16"
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.intel.com/content/www/us/en/products/sku/227954/intel-arc-a750-graphics/specifications.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
       "id": "ssd_500_pcie4",
       "type": "storage",
       "brand": null,
@@ -664,57 +2110,6 @@
       "specs": {
         "capacity_gb": 4000,
         "interface": "NVMe PCIe 4.0"
-      },
-      "bench": null,
-      "price": null,
-      "spec_source": "Generic part class. Check the exact model's specification before buying."
-    },
-    {
-      "id": "mb_b650_am5",
-      "type": "motherboard",
-      "brand": null,
-      "name": "B650 chipset board (AM5)",
-      "released": null,
-      "generic": true,
-      "specs": {
-        "socket": "AM5",
-        "chipset": "B650",
-        "memory_type": "DDR5",
-        "form_factor": "ATX / Micro-ATX"
-      },
-      "bench": null,
-      "price": null,
-      "spec_source": "Generic part class. Check the exact model's specification before buying."
-    },
-    {
-      "id": "mb_b760_ddr4",
-      "type": "motherboard",
-      "brand": null,
-      "name": "B760 chipset board, DDR4 version (LGA1700)",
-      "released": null,
-      "generic": true,
-      "specs": {
-        "socket": "LGA1700",
-        "chipset": "B760",
-        "memory_type": "DDR4",
-        "form_factor": "ATX / Micro-ATX"
-      },
-      "bench": null,
-      "price": null,
-      "spec_source": "Generic part class. Check the exact model's specification before buying."
-    },
-    {
-      "id": "mb_b860_lga1851",
-      "type": "motherboard",
-      "brand": null,
-      "name": "B860 chipset board (LGA1851)",
-      "released": null,
-      "generic": true,
-      "specs": {
-        "socket": "LGA1851",
-        "chipset": "B860",
-        "memory_type": "DDR5",
-        "form_factor": "ATX / Micro-ATX"
       },
       "bench": null,
       "price": null,
