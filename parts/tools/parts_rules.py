@@ -19,9 +19,15 @@ RANGES = {"cores": (1, 128), "threads": (1, 256), "tdp_w": (1, 2000), "vram_gb":
           "capacity_gb": (1, 64000), "speed_mts": (800, 12000), "modules": (1, 8), "watts": (1, 2000),
           # optional official details (catalog v3): checked only when present
           "max_power_w": (1, 2000), "cache_mb": (1, 1024), "boost_mhz": (100, 5000), "length_mm": (50, 500),
-          "displays": (1, 8)}
+          "displays": (1, 8),
+          # optional official details (catalog v4): boards, memory, storage, power supplies
+          "memory_slots": (1, 8), "max_memory_gb": (1, 4096), "m2_slots": (0, 12), "cas_latency": (5, 80),
+          "default_mts": (800, 12000), "read_mbs": (50, 20000), "write_mbs": (50, 20000),
+          "endurance_tbw": (1, 100000), "warranty_years": (1, 25)}
 DECIMAL_RANGES = {"base_ghz": (0.5, 7.0), "boost_ghz": (0.5, 7.0)}
-BOOLEAN_SPECS = ("integrated_graphics", "cooler_included")
+BOOLEAN_SPECS = ("integrated_graphics", "cooler_included", "wifi", "pcie_16pin")
+# optional values limited to a fixed list (the app translates them)
+CHOICE_SPECS = {"modular": ("Full", "Semi", "No")}
 # launch_msrp = maker's launch price, reference = other reference price, rcp = Intel Recommended Customer Price
 PRICE_KINDS = ("launch_msrp", "reference", "rcp")
 CURRENCIES = {"MAD", "USD", "EUR", "GBP", "JPY", "CNY", "CHF", "CAD", "AUD", "INR", "KRW",
@@ -80,6 +86,12 @@ def check_catalog(cat):
         for k in BOOLEAN_SPECS:
             if k in specs and not isinstance(specs[k], bool):
                 e(f"{pid}: {k} must be true or false")
+        for k, allowed in CHOICE_SPECS.items():
+            if k in specs and specs[k] not in allowed:
+                e(f"{pid}: {k} must be one of {', '.join(allowed)}")
+        if is_int(specs.get("default_mts")) and is_int(specs.get("speed_mts")) \
+                and specs["default_mts"] > specs["speed_mts"]:
+            e(f"{pid}: default_mts above speed_mts")
         if p.get("spec_checked") is not None and not ISO.match(str(p["spec_checked"])):
             e(f"{pid}: spec_checked must be YYYY-MM-DD")
         if t == "cpu" and is_int(specs.get("threads")) and is_int(specs.get("cores")) \
