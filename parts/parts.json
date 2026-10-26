@@ -1285,6 +1285,270 @@
       "spec_source": "Generic part class. Check the exact model's specification before buying."
     },
     {
+      "id": "mb_msi_b550m_pro_vdh_wifi",
+      "type": "motherboard",
+      "brand": "MSI",
+      "name": "MSI B550M PRO-VDH WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM4",
+        "chipset": "B550",
+        "memory_type": "DDR4",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 128,
+        "m2_slots": 2,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_asus_tuf_b550_plus_wifi2",
+      "type": "motherboard",
+      "brand": "ASUS",
+      "name": "ASUS TUF GAMING B550-PLUS WIFI II",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM4",
+        "chipset": "B550",
+        "memory_type": "DDR4",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 128,
+        "m2_slots": 2,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wifi-ii/techspec/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_msi_pro_b650m_a_wifi",
+      "type": "motherboard",
+      "brand": "MSI",
+      "name": "MSI PRO B650M-A WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "memory_type": "DDR5",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 2,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Motherboard/PRO-B650M-A-WIFI/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_msi_b850_tomahawk_max_wifi",
+      "type": "motherboard",
+      "brand": "MSI",
+      "name": "MSI MAG B850 TOMAHAWK MAX WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B850",
+        "memory_type": "DDR5",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 4,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_msi_pro_b760m_a_wifi_ddr4",
+      "type": "motherboard",
+      "brand": "MSI",
+      "name": "MSI PRO B760M-A WIFI DDR4",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memory_type": "DDR4",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 128,
+        "m2_slots": 2,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Motherboard/PRO-B760M-A-WIFI-DDR4/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_msi_pro_b860m_a_wifi",
+      "type": "motherboard",
+      "brand": "MSI",
+      "name": "MSI PRO B860M-A WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "chipset": "B860",
+        "memory_type": "DDR5",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 3,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Motherboard/PRO-B860M-A-WIFI/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_gigabyte_b650_eagle_ax",
+      "type": "motherboard",
+      "brand": "Gigabyte",
+      "name": "Gigabyte B650 EAGLE AX",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "memory_type": "DDR5",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 3,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.gigabyte.com/Motherboard/B650-EAGLE-AX-rev-10-11/sp",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_gigabyte_b760_gaming_x_ax",
+      "type": "motherboard",
+      "brand": "Gigabyte",
+      "name": "Gigabyte B760 GAMING X AX",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memory_type": "DDR5",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 3,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.gigabyte.com/Motherboard/B760-GAMING-X-AX-rev-1x/sp",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_asus_tuf_x870_plus_wifi",
+      "type": "motherboard",
+      "brand": "ASUS",
+      "name": "ASUS TUF GAMING X870-PLUS WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "X870",
+        "memory_type": "DDR5",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 4,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_asus_prime_b760m_a_wifi_d4",
+      "type": "motherboard",
+      "brand": "ASUS",
+      "name": "ASUS PRIME B760M-A WIFI D4",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memory_type": "DDR4",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 128,
+        "m2_slots": 2,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-wifi-d4/techspec/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_asus_tuf_b860_plus_wifi",
+      "type": "motherboard",
+      "brand": "ASUS",
+      "name": "ASUS TUF GAMING B860-PLUS WIFI",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "LGA1851",
+        "chipset": "B860",
+        "memory_type": "DDR5",
+        "form_factor": "ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 3,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b860-plus-wifi/techspec/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "mb_asrock_b650m_pro_rs_wifi",
+      "type": "motherboard",
+      "brand": "ASRock",
+      "name": "ASRock B650M Pro RS WiFi",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "memory_type": "DDR5",
+        "form_factor": "Micro-ATX",
+        "memory_slots": 4,
+        "max_memory_gb": 256,
+        "m2_slots": 3,
+        "wifi": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.asrock.com/mb/AMD/B650M%20Pro%20RS%20WiFi/index.asp#Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
       "id": "ram_16_ddr4_3200",
       "type": "ram",
       "brand": null,
@@ -1351,6 +1615,174 @@
       "bench": null,
       "price": null,
       "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "ram_kingston_fury_beast_16_ddr4_3200",
+      "type": "ram",
+      "brand": "Kingston",
+      "name": "Kingston FURY Beast 16 GB (2 × 8 GB) DDR4-3200",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 16,
+        "type": "DDR4",
+        "speed_mts": 3200,
+        "modules": 2,
+        "cas_latency": 16,
+        "memory_profile": "XMP",
+        "default_mts": 2400
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.kingston.com/datasheets/KF432C16BBK2_16.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_kingston_fury_beast_32_ddr5_6000",
+      "type": "ram",
+      "brand": "Kingston",
+      "name": "Kingston FURY Beast 32 GB (2 × 16 GB) DDR5-6000",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2,
+        "cas_latency": 30,
+        "memory_profile": "EXPO + XMP",
+        "default_mts": 4800
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.kingston.com/datasheets/KF560C30BBEK2-32.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_corsair_lpx_16_ddr4_3200",
+      "type": "ram",
+      "brand": "Corsair",
+      "name": "Corsair Vengeance LPX 16 GB (2 × 8 GB) DDR4-3200",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 16,
+        "type": "DDR4",
+        "speed_mts": 3200,
+        "modules": 2,
+        "cas_latency": 16,
+        "memory_profile": "XMP",
+        "default_mts": 2133
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/memory/cmk16gx4m2b3200c16/vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk16gx4m2b3200c16",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_corsair_lpx_32_ddr4_3200",
+      "type": "ram",
+      "brand": "Corsair",
+      "name": "Corsair Vengeance LPX 32 GB (2 × 16 GB) DDR4-3200",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR4",
+        "speed_mts": 3200,
+        "modules": 2,
+        "cas_latency": 16,
+        "memory_profile": "XMP",
+        "default_mts": 2133
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/memory/cmk32gx4m2e3200c16/vengeancea-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk32gx4m2e3200c16",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_corsair_vengeance_32_ddr5_6000",
+      "type": "ram",
+      "brand": "Corsair",
+      "name": "Corsair Vengeance 32 GB (2 × 16 GB) DDR5-6000",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2,
+        "cas_latency": 30,
+        "memory_profile": "EXPO + XMP",
+        "default_mts": 4800
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000z30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-cl30-amd-expo-memory-black-cmk32gx5m2b6000z30",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_gskill_ripjaws_v_32_ddr4_3600",
+      "type": "ram",
+      "brand": "G.Skill",
+      "name": "G.Skill Ripjaws V 32 GB (2 × 16 GB) DDR4-3600",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR4",
+        "speed_mts": 3600,
+        "modules": 2,
+        "cas_latency": 16,
+        "memory_profile": "XMP",
+        "default_mts": 2133
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.gskill.com/specification/165/184/1562831784/F4-3600C16D-32GVKC-Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_gskill_flare_x5_32_ddr5_6000",
+      "type": "ram",
+      "brand": "G.Skill",
+      "name": "G.Skill Flare X5 32 GB (2 × 16 GB) DDR5-6000",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 32,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2,
+        "cas_latency": 30,
+        "memory_profile": "EXPO + XMP",
+        "default_mts": 4800
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.gskill.com/specification/165/396/1673491242/F5-6000J3038F16GX2-FX5-Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ram_gskill_trident_z5_rgb_64_ddr5_6000",
+      "type": "ram",
+      "brand": "G.Skill",
+      "name": "G.Skill Trident Z5 RGB 64 GB (2 × 32 GB) DDR5-6000",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 64,
+        "type": "DDR5",
+        "speed_mts": 6000,
+        "modules": 2,
+        "cas_latency": 30,
+        "memory_profile": "XMP",
+        "default_mts": 4800
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.gskill.com/specification/165/374/1649234977/F5-6000J3040G32GX2-TZ5RK-F5-6000J3040G32GA2-TZ5RK-Specification",
+      "spec_checked": "2026-10-26"
     },
     {
       "id": "gpu_rtx_5060",
@@ -2116,6 +2548,207 @@
       "spec_source": "Generic part class. Check the exact model's specification before buying."
     },
     {
+      "id": "ssd_samsung_990_evo_plus_1tb",
+      "type": "storage",
+      "brand": "Samsung",
+      "name": "Samsung 990 EVO Plus 1 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "NVMe PCIe 4.0 x4 / 5.0 x2",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7150,
+        "write_mbs": 6300,
+        "endurance_tbw": 600,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": {
+        "reference": 110,
+        "usual": null,
+        "kind": "launch_msrp",
+        "source": "https://news.samsung.com/us/samsung-launches-990-evo-plus-ssd-with-improved-performance-speeds-supported-by-pcie-4-0/",
+        "as_of": "2024-10-22"
+      },
+      "spec_source": "https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-plus-gen4-nvme-ssd-1tb-sku-mz-v9s1t0b-am/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_samsung_990_pro_2tb",
+      "type": "storage",
+      "brand": "Samsung",
+      "name": "Samsung 990 PRO 2 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 2000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7450,
+        "write_mbs": 6900,
+        "endurance_tbw": 1200,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": {
+        "reference": 309,
+        "usual": null,
+        "kind": "launch_msrp",
+        "source": "https://news.samsung.com/global/samsung-electronics-unveils-high-performance-990-pro-ssd-optimized-for-gaming-and-creative-applications",
+        "as_of": "2022-08-25"
+      },
+      "spec_source": "https://www.samsung.com/us/business/memory-storage/nvme-ssd/990-pro-pcie-4-0-nvme-ssd-2tb-sku-mz-v9p2t0b-am/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_samsung_870_evo_1tb",
+      "type": "storage",
+      "brand": "Samsung",
+      "name": "Samsung 870 EVO 1 TB (SATA)",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "SATA 6 Gb/s",
+        "form_factor": "2.5 inch",
+        "read_mbs": 560,
+        "write_mbs": 530,
+        "endurance_tbw": 600,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-1tb-sku-mz-77e1t0b-am/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_wd_black_sn7100_1tb",
+      "type": "storage",
+      "brand": "WD_BLACK",
+      "name": "WD_BLACK SN7100 1 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7250,
+        "write_mbs": 6900,
+        "endurance_tbw": 600,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/wd-black-ssd/data-sheet-wd-black-sn7100-nvme-ssd.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_wd_black_sn850x_2tb",
+      "type": "storage",
+      "brand": "WD_BLACK",
+      "name": "WD_BLACK SN850X 2 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 2000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7300,
+        "write_mbs": 6600,
+        "endurance_tbw": 1200,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/wd-black-ssd/data-sheet-wd-black-sn850x-nvme-ssd.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_kingston_nv3_500gb",
+      "type": "storage",
+      "brand": "Kingston",
+      "name": "Kingston NV3 500 GB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 500,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 5000,
+        "write_mbs": 3000,
+        "endurance_tbw": 160,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.kingston.com/datasheets/SNV3S_us.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_kingston_nv3_1tb",
+      "type": "storage",
+      "brand": "Kingston",
+      "name": "Kingston NV3 1 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 6000,
+        "write_mbs": 4000,
+        "endurance_tbw": 320,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.kingston.com/datasheets/SNV3S_us.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_wd_blue_sn5100_1tb",
+      "type": "storage",
+      "brand": "WD Blue",
+      "name": "WD Blue SN5100 1 TB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 1000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7100,
+        "write_mbs": 6700,
+        "endurance_tbw": 600,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/wd-blue-sn5100-nvme-ssd/data-sheet-wd-blue-sn5100-nvme-ssd.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "ssd_kingston_fury_renegade_2tb",
+      "type": "storage",
+      "brand": "Kingston",
+      "name": "Kingston FURY Renegade 2 TB (heatsink)",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "capacity_gb": 2000,
+        "interface": "NVMe PCIe 4.0 x4",
+        "form_factor": "M.2 2280",
+        "read_mbs": 7300,
+        "write_mbs": 7000,
+        "endurance_tbw": 2000,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
       "id": "psu_550_gold",
       "type": "psu",
       "brand": null,
@@ -2159,6 +2792,182 @@
       "bench": null,
       "price": null,
       "spec_source": "Generic part class. Check the exact model's specification before buying."
+    },
+    {
+      "id": "psu_msi_mag_a650bn",
+      "type": "psu",
+      "brand": "MSI",
+      "name": "MSI MAG A650BN",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 650,
+        "efficiency": "80 PLUS Bronze",
+        "modular": "No",
+        "pcie_16pin": false,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Power-Supply/MAG-A650BN/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_msi_mag_a850gl_pcie5",
+      "type": "psu",
+      "brand": "MSI",
+      "name": "MSI MAG A850GL PCIE5",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 850,
+        "efficiency": "80 PLUS Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.msi.com/Power-Supply/MAG-A850GL-PCIE5/Specification",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_corsair_rm750e",
+      "type": "psu",
+      "brand": "Corsair",
+      "name": "Corsair RM750e",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 750,
+        "efficiency": "Cybenetics Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 7
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/psu/cp-9020295-na/rme-series-rm750e-fully-modular-low-noise-atx-power-supply-cp-9020295-na",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_corsair_rm850e",
+      "type": "psu",
+      "brand": "Corsair",
+      "name": "Corsair RM850e",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 850,
+        "efficiency": "Cybenetics Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 7
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/psu/cp-9020296-na/rme-series-rm850e-fully-modular-low-noise-atx-power-supply-cp-9020296-na",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_corsair_rm1000x",
+      "type": "psu",
+      "brand": "Corsair",
+      "name": "Corsair RM1000x",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 1000,
+        "efficiency": "Cybenetics Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 10
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/psu/cp-9020271-na/rmx-series-rm1000x-fully-modular-power-supply-cp-9020271-na",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_corsair_cx650",
+      "type": "psu",
+      "brand": "Corsair",
+      "name": "Corsair CX650",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 650,
+        "efficiency": "80 PLUS Bronze",
+        "modular": "No",
+        "pcie_16pin": false,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/psu/cp-9020278-na/cx-series-cx650-650-watt-80-plus-bronze-atx-power-supply-cp-9020278-na",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_seasonic_focus_gx_750",
+      "type": "psu",
+      "brand": "Seasonic",
+      "name": "Seasonic FOCUS GX-750 ATX 3.1",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 750,
+        "efficiency": "80 PLUS Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 10
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://seasonic.com/focus-gx-atx-3/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_seasonic_focus_gx_850",
+      "type": "psu",
+      "brand": "Seasonic",
+      "name": "Seasonic FOCUS GX-850 ATX 3.1",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 850,
+        "efficiency": "80 PLUS Gold",
+        "modular": "Full",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 10
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://seasonic.com/focus-gx-atx-3/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "psu_bequiet_pure_power_12_750",
+      "type": "psu",
+      "brand": "be quiet!",
+      "name": "be quiet! Pure Power 12 750W",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "watts": 750,
+        "efficiency": "80 PLUS Gold",
+        "atx_version": "ATX 3.1",
+        "pcie_16pin": true,
+        "warranty_years": 10
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.bequiet.com/en/powersupply/5678",
+      "spec_checked": "2026-10-26"
     }
   ]
 }
