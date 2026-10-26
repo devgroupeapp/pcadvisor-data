@@ -13,6 +13,9 @@ REQ = {
     "storage": ["capacity_gb", "interface"],
     "motherboard": ["socket", "chipset", "memory_type", "form_factor"],
     "psu": ["watts", "efficiency"],
+    # catalog v5 (app versionCode 5+): publish with --min-app 5
+    "case": ["board_sizes", "max_gpu_length_mm", "max_cooler_height_mm"],
+    "cooler": ["cooler_type", "sockets"],
 }
 RANGES = {"cores": (1, 128), "threads": (1, 256), "tdp_w": (1, 2000), "vram_gb": (0, 64),
           "bus_bits": (32, 1024), "board_power_w": (1, 2000), "recommended_psu_w": (1, 2000),
@@ -23,11 +26,14 @@ RANGES = {"cores": (1, 128), "threads": (1, 256), "tdp_w": (1, 2000), "vram_gb":
           # optional official details (catalog v4): boards, memory, storage, power supplies
           "memory_slots": (1, 8), "max_memory_gb": (1, 4096), "m2_slots": (0, 12), "cas_latency": (5, 80),
           "default_mts": (800, 12000), "read_mbs": (50, 20000), "write_mbs": (50, 20000),
-          "endurance_tbw": (1, 100000), "warranty_years": (1, 25)}
+          "endurance_tbw": (1, 100000), "warranty_years": (1, 25),
+          # catalog v5: cases and coolers
+          "max_gpu_length_mm": (100, 600), "max_cooler_height_mm": (30, 250), "max_radiator_mm": (120, 480),
+          "fans_included": (0, 20), "height_mm": (20, 250), "radiator_mm": (120, 480)}
 DECIMAL_RANGES = {"base_ghz": (0.5, 7.0), "boost_ghz": (0.5, 7.0)}
 BOOLEAN_SPECS = ("integrated_graphics", "cooler_included", "wifi", "pcie_16pin")
 # optional values limited to a fixed list (the app translates them)
-CHOICE_SPECS = {"modular": ("Full", "Semi", "No")}
+CHOICE_SPECS = {"modular": ("Full", "Semi", "No"), "cooler_type": ("Air", "Liquid")}
 # launch_msrp = maker's launch price, reference = other reference price, rcp = Intel Recommended Customer Price
 PRICE_KINDS = ("launch_msrp", "reference", "rcp")
 CURRENCIES = {"MAD", "USD", "EUR", "GBP", "JPY", "CNY", "CHF", "CAD", "AUD", "INR", "KRW",

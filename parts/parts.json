@@ -2968,6 +2968,396 @@
       "price": null,
       "spec_source": "https://www.bequiet.com/en/powersupply/5678",
       "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_corsair_4000d_airflow",
+      "type": "case",
+      "brand": "Corsair",
+      "name": "Corsair 4000D AIRFLOW",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "E-ATX/ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 360,
+        "max_cooler_height_mm": 170,
+        "max_radiator_mm": 360,
+        "fans_included": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.corsair.com/us/en/p/pc-cases/cc-9011200-ww/4000d-airflow-tempered-glass-mid-tower-atx-case-black-cc-9011200-ww",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_nzxt_h5_flow_2024",
+      "type": "case",
+      "brand": "NZXT",
+      "name": "NZXT H5 Flow (2024)",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "E-ATX/ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 410,
+        "max_cooler_height_mm": 170,
+        "max_radiator_mm": 360,
+        "fans_included": 2
+      },
+      "bench": null,
+      "price": {
+        "reference": 95,
+        "usual": null,
+        "kind": "launch_msrp",
+        "source": "https://nzxt.com/blogs/news/nzxt-unveils-reimagined-h5-flow-mid-tower-atx-case",
+        "as_of": "2024-08-20"
+      },
+      "spec_source": "https://support.nzxt.com/hc/en-us/articles/40225168535451-H5-Flow-2024-Specs",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_lian_li_lancool_216",
+      "type": "case",
+      "brand": "Lian Li",
+      "name": "Lian Li LANCOOL 216",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "E-ATX/ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 392,
+        "max_cooler_height_mm": 180,
+        "max_radiator_mm": 360,
+        "fans_included": 3
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://lian-li.com/product/lancool-216/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_fractal_north",
+      "type": "case",
+      "brand": "Fractal Design",
+      "name": "Fractal Design North",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 355,
+        "max_cooler_height_mm": 145,
+        "max_radiator_mm": 360,
+        "fans_included": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.fractal-design.com/products/cases/north-series/north/north-charcoal-black/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_fractal_pop_air",
+      "type": "case",
+      "brand": "Fractal Design",
+      "name": "Fractal Design Pop Air",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 405,
+        "max_cooler_height_mm": 170,
+        "max_radiator_mm": 280,
+        "fans_included": 3
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.fractal-design.com/products/cases/pop-series/pop-air/pop-air-black-solid/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_deepcool_cc560_v2",
+      "type": "case",
+      "brand": "DeepCool",
+      "name": "DeepCool CC560 V2",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 370,
+        "max_cooler_height_mm": 165,
+        "max_radiator_mm": 360,
+        "fans_included": 4
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.deepcool.com/products/Cases/CC560-V2-Mid-Tower-Airflow-Case/2023/17782.shtml",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_deepcool_ch560",
+      "type": "case",
+      "brand": "DeepCool",
+      "name": "DeepCool CH560",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "E-ATX/ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 380,
+        "max_cooler_height_mm": 175,
+        "max_radiator_mm": 360,
+        "fans_included": 4
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.deepcool.com/products/Cases/CH560-New-Generation-of-Airflow-Case/2023/17101.shtml",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_montech_air_903_max",
+      "type": "case",
+      "brand": "Montech",
+      "name": "Montech AIR 903 MAX",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "E-ATX/ATX/Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 400,
+        "max_cooler_height_mm": 180,
+        "max_radiator_mm": 360,
+        "fans_included": 4
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.montechpc.com/air-903-max",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_montech_air_100_argb",
+      "type": "case",
+      "brand": "Montech",
+      "name": "Montech AIR 100 ARGB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 330,
+        "max_cooler_height_mm": 161,
+        "max_radiator_mm": 280,
+        "fans_included": 4
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.montechpc.com/air-100-argb",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "case_cooler_master_q300l",
+      "type": "case",
+      "brand": "Cooler Master",
+      "name": "Cooler Master MasterBox Q300L",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "board_sizes": "Micro-ATX/Mini-ITX",
+        "max_gpu_length_mm": 360,
+        "max_cooler_height_mm": 159,
+        "max_radiator_mm": 240,
+        "fans_included": 1
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.coolermaster.com/en-global/products/masterbox-q300l.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_cm_hyper_212_black",
+      "type": "cooler",
+      "brand": "Cooler Master",
+      "name": "Cooler Master Hyper 212 Black",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA1150/LGA1151/LGA1155/LGA1156/LGA1200/LGA1700/LGA1851",
+        "height_mm": 152,
+        "fans_included": 1,
+        "warranty_years": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.coolermaster.com/en-global/products/hyper-212-black.html",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_thermalright_ax120_r_se",
+      "type": "cooler",
+      "brand": "Thermalright",
+      "name": "Thermalright Assassin X 120 Refined SE",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA115x/LGA1200/LGA1700/LGA1851",
+        "height_mm": 148
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.thermalright.com/product/assassin-x-120-refined-se/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_thermalright_pa120_se",
+      "type": "cooler",
+      "brand": "Thermalright",
+      "name": "Thermalright Peerless Assassin 120 SE",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA115x/LGA1200/LGA1700/LGA1851",
+        "height_mm": 155
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.thermalright.com/product/peerless-assassin-120-se/",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_deepcool_ak620",
+      "type": "cooler",
+      "brand": "DeepCool",
+      "name": "DeepCool AK620",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA1150/LGA1151/LGA1155/LGA1200/LGA1700/LGA1851/LGA2011/LGA2066",
+        "height_mm": 160,
+        "fans_included": 2
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.deepcool.com/products/Cooling/cpuaircoolers/AK620-High-Performance-CPU-Cooler-1851-1700-AM5/2024/13067.shtml",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_deepcool_ak400",
+      "type": "cooler",
+      "brand": "DeepCool",
+      "name": "DeepCool AK400",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA1150/LGA1151/LGA1155/LGA1200/LGA1700/LGA1851",
+        "height_mm": 155
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.deepcool.com/products/Cooling/cpuaircoolers/AK400-Performance-CPU-Cooler-1851-1700-AM5/2024/15222.shtml",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_noctua_nh_u12s_redux",
+      "type": "cooler",
+      "brand": "Noctua",
+      "name": "Noctua NH-U12S redux",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA1150/LGA1151/LGA1155/LGA1156/LGA1200/LGA1700/LGA1851/LGA1954",
+        "height_mm": 158,
+        "fans_included": 1,
+        "warranty_years": 6
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.noctua.at/en/products/nh-u12s-redux/specifications",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_noctua_nh_d15_g2",
+      "type": "cooler",
+      "brand": "Noctua",
+      "name": "Noctua NH-D15 G2",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Air",
+        "sockets": "AM4/AM5/LGA1150/LGA1151/LGA1155/LGA1156/LGA1200/LGA1700/LGA1851/LGA1954",
+        "height_mm": 168,
+        "fans_included": 2,
+        "warranty_years": 6
+      },
+      "bench": null,
+      "price": {
+        "reference": 150,
+        "usual": null,
+        "kind": "launch_msrp",
+        "source": "https://www.noctua.at/en/news/noctua-releases-its-nh-d15-g2-next-gen-flagship-model-cpu-cooler-and-nf-a14x25r-g2-fans",
+        "as_of": "2024-07-02"
+      },
+      "spec_source": "https://www.noctua.at/en/products/nh-d15-g2/specifications",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_arctic_lf3_pro_240",
+      "type": "cooler",
+      "brand": "ARCTIC",
+      "name": "ARCTIC Liquid Freezer III Pro 240",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Liquid",
+        "sockets": "AM4/AM5/LGA1700/LGA1851",
+        "radiator_mm": 240,
+        "fans_included": 2,
+        "warranty_years": 6
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.arctic.de/media/3f/c1/fb/1744190700/Spec_Sheet_Liquid_Freezer_III_Pro_240_EN.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_arctic_lf3_pro_360",
+      "type": "cooler",
+      "brand": "ARCTIC",
+      "name": "ARCTIC Liquid Freezer III Pro 360",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Liquid",
+        "sockets": "AM4/AM5/LGA1700/LGA1851",
+        "radiator_mm": 360,
+        "fans_included": 3,
+        "warranty_years": 6
+      },
+      "bench": null,
+      "price": null,
+      "spec_source": "https://www.arctic.de/media/e3/d9/86/1741780098/Spec_Sheet_Liquid_Freezer_III_Pro_360_EN.pdf",
+      "spec_checked": "2026-10-26"
+    },
+    {
+      "id": "cooler_corsair_nautilus_ii_360_rs_argb",
+      "type": "cooler",
+      "brand": "Corsair",
+      "name": "Corsair NAUTILUS II 360 RS ARGB",
+      "released": null,
+      "generic": false,
+      "specs": {
+        "cooler_type": "Liquid",
+        "sockets": "AM4/AM5/LGA1700/LGA1851",
+        "radiator_mm": 360,
+        "warranty_years": 5
+      },
+      "bench": null,
+      "price": {
+        "reference": 130,
+        "usual": null,
+        "kind": "launch_msrp",
+        "source": "https://www.corsair.com/newsroom/press-release/corsair-launches-second-generation-nautilus-ii-aio-cpu-coolers-and-upgraded-rs-ii-fans-for-quiet-effective-pc-cooling",
+        "as_of": "2026-09-17"
+      },
+      "spec_source": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9061049-ww/nautilus-ii-360-rs-argb-liquid-cpu-cooler-cw-9061049-ww",
+      "spec_checked": "2026-10-26"
     }
   ]
 }

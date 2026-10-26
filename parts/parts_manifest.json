@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "data_version": 4,
+  "data_version": 5,
   "published_on": "2026-10-26",
   "parts_file": "parts.json",
-  "parts_sha256": "241810abace667c509e315822bbc5fda9bd9f8a77d4be9fe68b48c4889815026",
-  "parts_count": 112,
-  "min_app_version_code": 4
+  "parts_sha256": "05747824dedb98fd9005f6a6869d4625c0b8eaf8c8f6e054cf7106ff06685a9e",
+  "parts_count": 132,
+  "min_app_version_code": 5
 }
